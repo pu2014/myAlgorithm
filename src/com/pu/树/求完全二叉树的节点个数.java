@@ -1,0 +1,74 @@
+package com.pu.树;
+
+import com.tools.Node;
+
+/**
+ * 已知一棵完全二叉树，求其节点的个数
+ * 要求：时间复杂度低于O(N)，N为这棵树的节点个数
+ *
+ * 若设二叉树的深度为h，除第 h 层外，其它各层 (1～h-1) 的结点数都达到最大个数，
+ * 第 h 层所有的结点都连续集中在最左边，这就是完全二叉树。
+ * 满树的节点数=2 ^ h - 1;
+ *
+ * 算法复杂度：遍历节点logN 获取左边界LogN  总的复杂度 2LogN
+ * @author Pubojian
+ * @date 2019/11/7 15:15
+ */
+public class 求完全二叉树的节点个数 {
+    public static void main(String[] args) {
+        Node head = new Node(3);
+        Node node1 = new Node(2);
+        Node node2 = new Node(1);
+        Node node3 = new Node(6);
+        Node node4 = new Node(4);
+        Node node5 = new Node(7);
+        Node node6 = new Node(8);
+
+        head.left = node1;
+        head.right = node2;
+        node1.left = node3;
+        node1.right = node4;
+        node2.left = node5;
+        System.out.println(nodeNum(head));
+    }
+
+    public static int nodeNum(Node head){
+        /**
+         * Description:就判断右树的左边界是否到最后一层，到了左树就是满的，
+         * 没到右树就是满的，只不过左树和右树满的高度不一样而已，
+         * 都可以使用公式来计算。剩下的节点递归去求
+         * @auther
+         */
+        if(head == null){
+            return 0;
+        }
+        return bs(head, 1, mostLeftLevel(head, 1));
+    }
+
+    private static int bs(Node head, int level, int h) {
+        /**
+         * h:整棵树的高度
+         * level：当前层
+         */
+        if(level == h){
+            return 1;
+        }
+        //左右高度一致（左子树为满二叉树）
+        if(mostLeftLevel(head.right, level + 1) == h){
+            //返回 左子树的节点 2*(h-level) - 1 + 右子树的节点 + 1顶点
+            return(1 << (h - level)) + bs(head.right, level + 1, h);
+        }else{
+            //左右不一致，右子树为h-1 的满二叉树
+            return (1 << (h - level - 1)) + bs(head.left, level + 1, h);
+        }
+    }
+
+    private static int mostLeftLevel(Node head, int level) {
+        while(head != null){
+            level ++;
+            head = head.left;
+        }
+        return level - 1;
+    }
+
+}

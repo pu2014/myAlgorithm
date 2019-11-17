@@ -1,0 +1,38 @@
+package com.tools;
+
+import com.pu.链表.Node;
+
+public class Print {
+    public static void printArray(Integer[] arr){
+        if(arr.length == 0){
+            System.out.println("This array is empty");
+            return;
+        }else{
+            System.out.print("[");
+            int i = 0;
+            for(;i < arr.length - 1;i++){
+                System.out.print(arr[i] + ", ");
+            }
+            System.out.print(arr[i] +"]");
+            System.out.print("   size:" + i);
+            System.out.println();
+        }
+    }
+
+    public static void printNode(Node head){
+        if(head == null){
+            System.out.println("this LinkedList is null");
+        }else{
+            while(head != null){
+                if(head.next == null){
+                    System.out.print(head.val);
+                    System.out.println();
+                    break;
+                }
+                System.out.print(head.val + "-->");
+                head = head.next;
+            }
+
+        }
+    }
+}
