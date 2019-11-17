@@ -3,6 +3,7 @@ package com.pu.递归;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.List;
 
 /**
  * 打印一个字符串的全部排列，要求不要出现重复的排列
@@ -14,7 +15,12 @@ public class 打印一个字符串的全部排序 {
     }
 
     private static void printAllSub(String str) {
+        /**
+         * Description:递归+交换
+         * @auther zuoshen
+         */
         char[] chs = str.toCharArray();
+        process(chs, 0);
     }
 
     private static void process(char[] chs, int i) {
