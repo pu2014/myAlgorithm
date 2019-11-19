@@ -1,5 +1,10 @@
 package com.pu.字符串;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 /**
  * description：
  * 给定一个字符串，请你找出其中不含有重复字符的最长子串的长度。
@@ -12,6 +17,47 @@ public class 不含有重复字符的最长子串 {
         String str = "pwwkew";
         System.out.println(lengthOfLongestSubstring4ms(str));
         System.out.println(lengthOfLongestSubstring2ms(str));
+        System.out.println(lengthOfLongestSubstringBySlidingWindow1(str));
+        System.out.println(lengthOfLongestSubstringBySlidingWindow2(str));
+    }
+
+    private static int lengthOfLongestSubstringBySlidingWindow2(String str) {
+        /**
+         *@Description：滑动窗口法实现v2.0  O(N)  hashmap
+         *@Author: leetcode
+         *@Date: 2019/11/19 21:11
+         **/
+        int len = str.length();
+        int max = 0;
+        Map<Character, Integer> map = new HashMap<>();
+        for(int j = 0,i = 0; j < len; j++){
+            if(map.containsKey(str.charAt(j))){
+                i = Math.max(map.get(str.charAt(j)),i);
+            }
+            max = Math.max(max, j - i + 1);
+            map.put(str.charAt(j), j + 1);
+        }
+        return max;
+    }
+
+    private static int lengthOfLongestSubstringBySlidingWindow1(String str) {
+        /**
+         *@Description：滑动窗口法实现v1.0  O(2N)  hashset
+         *@Author: leetcode
+         *@Date: 2019/11/19 21:05
+         **/
+        int len = str.length();
+        Set<Character> set = new HashSet<>();
+        int max = 0, i = 0, j = 0;
+        while(i < len && j < len){
+            if(!set.contains(str.charAt(j))){
+                set.add(str.charAt(j++));
+                max = Math.max(max, j - i);
+            }else{
+                set.remove(str.charAt(i++));
+            }
+        }
+        return max;
     }
 
     private static int lengthOfLongestSubstring2ms(String str) {
