@@ -30,7 +30,7 @@ package com.pu.测试;
  **/
 public class 字符串的split {
     public static void main(String[] args) {
-        String str = "    9090 wd";
+        String str = "    9090";
         String[] strArray = str.split("");
         for (String s : strArray) {
             System.out.println(s);
@@ -41,5 +41,9 @@ public class 字符串的split {
         System.out.println("去除所有空格-->" + str.replaceAll(" +", ""));
         System.out.println("去除所有空格-->" + str.replaceAll("\\s*", ""));
         System.out.println(Integer.parseInt(str.replaceAll(" ", ""), 10));
+        String str1 = "+0087";
+        System.out.println(Integer.parseInt(str1,10));
+        System.out.println(Integer.parseInt("2222222222",10));
+
     }
 }
