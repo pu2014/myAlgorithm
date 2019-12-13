@@ -23,14 +23,36 @@ public class 合并两个有序链表 {
 
         print(list1);
         print(list2);
-        ListNode list3 = merge(list1,list2);
+        print(createdNodeMerge(list1, list2));
+        //ListNode list3 = merge(list1,list2);
         //ListNode list4 = recurMerge(list1,list2);
-        print(list3);
-        print(list1);
-        print(list2);
+        //print(list3);
+        //print(list1);
+        //print(list2);
         //System.out.println("递归版本");
         //print(list4);
 
+    }
+    private static ListNode createdNodeMerge(ListNode list1, ListNode list2){
+        /**
+         * Description:直接生成新元素
+         * @auther pubojian
+         */
+        ListNode head = new ListNode(0);
+        ListNode node = head;
+        while(list1 != null && list2 != null){
+            if(list1.val < list2.val){
+                node.next = new ListNode(list1.val);
+                node = node.next;
+                list1 = list1.next;
+            }else{
+                node.next = new ListNode(list2.val);
+                node = node.next;
+                list2 = list2.next;
+            }
+        }
+        node.next = list1 == null ? list2 : list1;
+        return head.next;
     }
 
     private static ListNode merge(ListNode list1, ListNode list2) {
@@ -46,12 +68,14 @@ public class 合并两个有序链表 {
             }
             node = node.next;
         }
-        if(list1 != null){
-            node.next = list1;
-        }
-        if(list2 != null){
-            node.next = list2;
-        }
+//        if(list1 != null){
+//            node.next = list1;
+//        }
+//        if(list2 != null){
+//            node.next = list2;
+//        }可以简化
+        node.next = list1 == null ? list2 : list1;
+
         return head.next;//return list1 or list2
     }
 
