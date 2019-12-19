@@ -3,6 +3,7 @@ package com.pu.字符串;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 /**
  * description：输入一个字符串，打印出该字符串中字符的所有排列。例如输入字符串abc，则输出由
@@ -13,7 +14,7 @@ import java.util.Set;
  */
 public class 打印字符串的所有排列 {
     public static void main(String[] args) {
-        String str = "aac";
+        String str = "abc";
         ArrayList<String> list;
         list = printAllSub(str);
         for(String string : list){
@@ -22,26 +23,22 @@ public class 打印字符串的所有排列 {
     }
 
     private static ArrayList<String> printAllSub(String str) {
-        ArrayList<String> list = new ArrayList<>();
+        TreeSet<String> set = new TreeSet<>();
         char[] chs = str.toCharArray();
-        process(list, chs, 0);
-        return list;
+        process(set, chs, 0);
+        return new ArrayList<>(set);
 
     }
 
-    private static void process(ArrayList<String> list, char[] chs, int i) {
+    private static void process(TreeSet<String> set, char[] chs, int i) {
         if(i == chs.length){
-            list.add(String.valueOf(chs));
+            set.add(String.valueOf(chs));
             return;
         }
-        Set<Character> set = new HashSet<>();
         for(int j = i; j < chs.length; j++){
-            if(!set.contains(chs[j])){
-                set.add(chs[j]);
                 swap(chs, i, j);
-                process(list, chs, i + 1);
+                process(set, chs, i + 1);
                 swap(chs, i, j);
-            }
         }
     }
 
