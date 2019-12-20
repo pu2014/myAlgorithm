@@ -18,6 +18,8 @@ public class 数组中出现次数超过一半的数字 {
         System.out.println(cls.MoreThanHalfNum_SolutionV1(array));
         System.out.println(cls.MoreThanHalfNum_SolutionV2(array));
     }
+
+
     /**
      * Description: 利用hashmap来做
      * @auther pubojian
@@ -27,7 +29,7 @@ public class 数组中出现次数超过一半的数字 {
             return 0;
         }
         int len = array.length;
-        double midLen = len / 2.0;
+        int midLen = len >> 1;
         int maxNum = array[0];
         //找出最多数
         HashMap<Integer, Integer> map = new HashMap<>();
