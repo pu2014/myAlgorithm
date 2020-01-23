@@ -111,10 +111,28 @@ public class 判断是否是平衡树 {
         boolean a = isBalance(head);
         boolean b = isBalance1(head);
         boolean c = isBalance2(head);
+        boolean d = isBalance3(head);
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
+        System.out.println(d);
 
 
+    }
+
+    private static boolean isBalance3(Node head) {
+        //注：空树也为avl
+        return depth(head) != -1;
+
+    }
+
+    private static int depth(Node head) {
+        if(head == null) return 0;
+        int left = depth(head.left);
+        if(left == -1) return -1;
+        int right = depth(head.right);
+        if(right == -1) return -1;
+        if(Math.abs(left - right) > 1) return -1;
+        else return 1 + (left > right ? left : right);
     }
 }
