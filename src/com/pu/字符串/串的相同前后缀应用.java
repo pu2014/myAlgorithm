@@ -14,11 +14,17 @@ package com.pu.字符串;
  */
 public class 串的相同前后缀应用 {
     public static void main(String[] args) {
-        String str = "abcabc";
+        String str = "aaaaa";
         //得到最大的前后缀
         int index = getMaxIndex(str);
         System.out.println(index);
-        System.out.println(str + str.substring(0,index));
+        System.out.println(str + str.substring(0,str.length() - index));
+
+        String str1 = "abcabc";
+        //得到最大的前后缀
+        int index1 = getMaxIndex(str1);
+        System.out.println(index1);
+        System.out.println(str1 + str1.substring(0,str1.length() - index1));
 
     }
 
