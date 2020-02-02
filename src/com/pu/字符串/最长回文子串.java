@@ -10,13 +10,61 @@ package com.pu.字符串;
  * 注意: "aba" 也是一个有效答案。
  * @Author: pubojian
  * @Date: Created in 20:13 2019/11/21
+ * @Source:https://www.jianshu.com/p/392172762e55
  **/
 public class 最长回文子串 {
     public static void main(String[] args) {
         String s = "lacadafajdjhjkkjhjd";
         String s2 = "babad";
         System.out.println(longestPalindromeV1(s));
-        System.out.println(longestPalindromeV2(s2));
+        System.out.println(longestPalindromeV2(s));
+        System.out.println(longestPalindromeV3(s));
+    }
+
+    private static String longestPalindromeV3(String s) {
+        /**
+         * Description:manacher O(n)
+         * @auther
+         */
+        //最长回文子串的起始索引int index = (i - p[i])/2。
+        if(s == null || s.length() == 0){
+            return s;
+        }
+        String str = "#";
+        for (int i = 0; i < s.length(); i++) {
+            str += s.charAt(i) + "#";
+        }
+        int[] pArr = new int[str.length()];
+        int C = -1;  //前一个当前值
+        int R = -1; //最大右边界
+        int max = Integer.MIN_VALUE;//最优值
+        int maxId = 0;//最优值的坐标
+        for (int i = 0; i < str.length(); i++) {
+            pArr[i] = R > i ? Math.min(pArr[C * 2 - i], R - i) : 1;
+            /** 两种情况：
+             * 1：R - i > pArr[j]  i因为 i + j = 2C(对称关系)
+             * 2: R - i <= pArr[j]  以j为中心的回文子串超过了以id为中心的回文子串边界，但是由于i和j位置对等，绿框部分还是相同的。所以其向右延伸的范围最大就是mx-i，剩下超过的部分谁也不能保证是否一致，
+             * 只能通过循环对比判断，所以p[i] = R - i
+             */
+            while(i + pArr[i] < str.length() && i - pArr[i] > -1){//防止越界
+                if (str.charAt(i + pArr[i]) == str.charAt(i - pArr[i])) {
+                    pArr[i]++;
+                }else{
+                    break;
+                }
+            }
+            if(i + pArr[i] > R){ //更新边界
+                R = i + pArr[i];
+                C = i;
+            }
+            if(pArr[i] - 1 > max){
+                max = pArr[i] - 1;
+                maxId = i;
+            }
+        }
+        int start = (maxId - max) / 2;
+        return s.substring(start, start + max);
+
     }
 
     private static String longestPalindromeV2(String s) {
