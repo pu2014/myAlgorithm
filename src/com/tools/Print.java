@@ -18,6 +18,19 @@ public class Print {
             System.out.println();
         }
     }
+    public static void printTree(com.tools.Node root){
+        printTreeHelper(root);
+        System.out.println();
+    }
+
+    private static void printTreeHelper(com.tools.Node root) {
+        if(root == null){
+            return;
+        }
+        System.out.print(root.value + " ");
+        printTreeHelper(root.left);
+        printTreeHelper(root.right);
+    }
 
     public static void printNode(Node head){
         if(head == null){

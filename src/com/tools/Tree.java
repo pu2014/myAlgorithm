@@ -19,7 +19,7 @@ public class Tree {
             return;
         }
         System.out.print(root.data + " ");
-        preOrderRecur(root);
+        preOrderRecur(root.left);
         preOrderRecur(root.right);
     }
 
