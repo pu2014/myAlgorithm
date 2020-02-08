@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class 荷兰旗问题 {
     public static void main(String[] args) {
         int[] arr = {3,4,4,5,6,4,5,3,6,7,5,3};
-        int pivot = 3;
+        int pivot = 5;
         int left = 0;
         int right = arr.length - 1;
-        partition(arr,0,right,3);
+        partition(arr,0,right,pivot);
         System.out.println(Arrays.toString(arr));
         /*int i = 0;
         while (left < right) {

@@ -22,20 +22,43 @@ public class 正则表达式匹配 {
     public static void main(String[] args) {
         String s = "aasdfasdfasdfasdfas";
         String p = "aasdf.*asdf.*asdf.*asdf.*s";
-        System.out.println(isMatch(s, p));
+        System.out.println(isMatchTopToDown(s, p));
+        System.out.println(isMatchDownToTop(s, p));
+
     }
 
-    private static boolean isMatch(String s, String p) {
+    private static boolean isMatchDownToTop(String s, String p) {
         if(s == null || p == null){
             return false;
         }
         boolean[][] dp = new boolean[s.length() + 1][p.length() + 1];
-        dp[0][0] = true; //dp[i][j] 表示s的前i个能否被p的前j个匹配
-        for (int i = 0; i < p.length(); i++) {
+        dp[s.length()][p.length()] = true; //都是空串
+        for (int i = s.length(); i >= 0; i--) {
+            for (int j = p.length() - 1; j >= 0; j--) {
+                boolean curMatch = (i < s.length() &&
+                        (s.charAt(i) == p.charAt(j) || p.charAt(j) == '.'));
+                if(j + 1 < p.length() && p.charAt(j + 1) == '*'){
+                    dp[i][j] = dp[i][j + 2] || curMatch && dp[i + 1][j];
+                }else{
+                    dp[i][j] = curMatch && dp[i + 1][j + 1];
+                }
+            }
+        }
+        return dp[0][0];
+    }
+
+    private static boolean isMatchTopToDown(String s, String p) {
+        //自顶向下
+        if(s == null || p == null){
+            return false;
+        }
+        boolean[][] dp = new boolean[s.length() + 1][p.length() + 1];
+        dp[0][0] = true; //00 空串 dp[i][j] 表示s的前i个能否被p的前j个匹配
+        /*for (int i = 0; i < p.length(); i++) {
             if(p.charAt(i) == '*' && dp[0][i - 1]){
                 dp[0][i + 1] = true;
             }
-        }
+        }*/
         for (int i = 0; i < s.length(); i++) {
             for (int j = 0; j < p.length(); j++) {
                 if(p.charAt(j) == '.' || p.charAt(j) == s.charAt(i)){//任意元素或者相同元素
