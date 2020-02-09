@@ -54,7 +54,7 @@ public class Manacher算法 {
         }
         // 第三步：截取字符串，输出结果
         // 起始索引的计算参看前文第四部分
-        int start = (index-maxLength)/2;
+        int start = (index-maxLength) / 2;
         return s.substring(start, start + maxLength);
     }
 }

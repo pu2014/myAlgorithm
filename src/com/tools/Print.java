@@ -18,6 +18,22 @@ public class Print {
             System.out.println();
         }
     }
+    public static void printArray(int[] arr){
+        if(arr.length == 0){
+            System.out.println("This array is empty");
+            return;
+        }else{
+            System.out.print("[");
+            int i = 0;
+            for(;i < arr.length - 1;i++){
+                System.out.print(arr[i] + ", ");
+            }
+            System.out.print(arr[i] +"]");
+            System.out.print("   size:" + i);
+            System.out.println();
+        }
+    }
+
     public static void printTree(com.tools.Node root){
         printTreeHelper(root);
         System.out.println();
