@@ -93,7 +93,7 @@ public class 单向链表左边小中间相等右边大 {
                 if(sH == null){
                     sH = next;
                     sT = next;
-                }{
+                }else{
                     sT.next = next;
                     sT = sT.next;
                 }
