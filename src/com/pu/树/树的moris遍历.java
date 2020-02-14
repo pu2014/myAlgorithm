@@ -35,32 +35,32 @@ public class 树的moris遍历 {
         if(head == null){
             return;
         }
-        Node cur1 = head;
-        Node cur2 = null;
+        Node cur = head;
+        Node mostRight;
         boolean preflag = false;
-        while(cur1 != null){
-            cur2 = cur1.left;
-            if(cur2 != null){
-                while(cur2.right != null && cur2.right != cur1){
+        while(cur != null){
+            mostRight = cur.left;
+            if(mostRight != null){
+                while(mostRight.right != null && mostRight.right != cur){
                     //找到cur1的左子树最右的节点。
-                    cur2 = cur2.right;
+                    mostRight = mostRight.right;
                 }
-                if(cur2.right == null){
-                    cur2.right = cur1;
+                if(mostRight.right == null){
+                    mostRight.right = cur;
                     if(preflag == false) {
                         System.out.print("preTraval:");
                         preflag = true;
                     }
-                    System.out.print(cur1.value + " ");
-                    cur1 = cur1.left;
+                    System.out.print(cur.value + " ");
+                    cur = cur.left;
                     continue;
                 }else{
-                    cur2.right = null;
+                    mostRight.right = null;
                 }
             }else{
-                System.out.print(cur1.value + " ");
+                System.out.print(cur.value + " ");
             }
-            cur1 = cur1.right;
+            cur = cur.right;
         }
         System.out.println();
     }
@@ -71,21 +71,21 @@ public class 树的moris遍历 {
             return;
         }
         Node cur = head;
-        Node tmp;
+        Node mostRight;
         boolean inflag = false;
         while(cur != null){
-            tmp = cur.left;
-            if(tmp != null){
-                while(tmp.right != null && tmp.right != cur){
-                    tmp = tmp.right;  //mostRight;
+            mostRight = cur.left;
+            if(mostRight != null){
+                while(mostRight.right != null && mostRight.right != cur){
+                    mostRight = mostRight.right;  //mostRight;
                 }
-                if(tmp.right == null){
-                    tmp.right = cur;
+                if(mostRight.right == null){
+                    mostRight.right = cur;
                     cur = cur.left;
                     continue;
                 }
-                if(tmp.right == cur){
-                    tmp.right = null;
+                if(mostRight.right == cur){
+                    mostRight.right = null;
                 }
             }
 
@@ -108,21 +108,21 @@ public class 树的moris遍历 {
             return;
         }
         Node cur = head;
-        Node tmp;
+        Node mostRight;
         boolean posflag = false;
         while(cur != null){
-            tmp = cur.left;
-            if(tmp != null){
-                while(tmp.right != null && tmp.right != cur){
-                    tmp = tmp.right;
+            mostRight = cur.left;
+            if(mostRight != null){
+                while(mostRight.right != null && mostRight.right != cur){
+                    mostRight = mostRight.right;
                 }
-                if(tmp.right == null){
-                    tmp.right = cur;
+                if(mostRight.right == null){
+                    mostRight.right = cur;
                     cur = cur.left;
                     continue;
                 }
-                if(tmp.right == cur){
-                    tmp.right = null;
+                if(mostRight.right == cur){
+                    mostRight.right = null;
                     if(posflag == false){
                         System.out.print("posTraval:");
                         posflag = true;

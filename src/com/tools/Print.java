@@ -1,6 +1,7 @@
 package com.tools;
 
 import com.pu.链表.Node;
+import com.tools.Print;
 
 public class Print {
     public static void printArray(Integer[] arr){
