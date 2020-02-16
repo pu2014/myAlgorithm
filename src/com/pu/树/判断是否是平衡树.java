@@ -19,7 +19,7 @@ public class 判断是否是平衡树 {
     }
 
     public static boolean isBalance2(Node head){
-        Boolean res = new Boolean(true);
+        Boolean res = new Boolean(true);//值传递，不会改变。
         int i = getHeight(head, 1, res);
         return res;
     }
