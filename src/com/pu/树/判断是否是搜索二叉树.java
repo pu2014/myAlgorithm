@@ -26,6 +26,7 @@ public class 判断是否是搜索二叉树 {
         node3.left = node4;
         System.out.println(isBST(head));
         System.out.println(isBST1(head));
+        System.out.println(isBSTv3(head));
     }
 
     private static boolean isBST1(Node head) {
@@ -52,7 +53,38 @@ public class 判断是否是搜索二叉树 {
         return process(head.left) && process(head.right);
     }
 
-    public static boolean isBST(Node head) {
+    public static boolean isBSTv3(Node head){
+        if (head == null) {
+            return true;
+        }
+        boolean res = true;
+        Node pre = null;
+        Node cur1 = head;
+        Node cur2 = null;
+        while (cur1 != null) { // moris中序遍历？
+            cur2 = cur1.left; //先遍历左孩子
+            if (cur2 != null) { //左孩子不为空
+                while (cur2.right != null && cur2.right != cur1) {//左孩子的右孩子不为null且不cur1
+                    cur2 = cur2.right;//找到最右的孩子
+                }
+                if (cur2.right == null) {
+                    cur2.right = cur1;
+                    cur1 = cur1.left;
+                    continue;
+                } else {
+                    cur2.right = null;
+                }
+            }
+            if (pre != null && pre.value > cur1.value) {
+                res = false;
+            }
+            pre = cur1;
+            cur1 = cur1.right;
+        }
+        return res;
+    }
+
+    public static boolean isBST(Node head) { // 中序遍历
         Stack<Node> stack = new Stack<>();
         int last = Integer.MIN_VALUE;
         while (head != null || !stack.isEmpty()) {
