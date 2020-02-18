@@ -1,4 +1,4 @@
-package com.pu.树;
+package com.pu.前缀树;
 
 public class 前缀树 {
     public static class TrieNode{

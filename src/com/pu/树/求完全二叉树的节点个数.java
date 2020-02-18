@@ -29,10 +29,11 @@ public class 求完全二叉树的节点个数 {
         node1.left = node3;
         node1.right = node4;
         node2.left = node5;
-        System.out.println(nodeNum(head));
+        System.out.println(nodeNum1(head));
+        System.out.println(nodeNum2(head));
     }
 
-    public static int nodeNum(Node head){
+    public static int nodeNum1(Node head){
         /**
          * Description:就判断右树的左边界是否到最后一层，到了左树就是满的，
          * 没到右树就是满的，只不过左树和右树满的高度不一样而已，
@@ -69,6 +70,30 @@ public class 求完全二叉树的节点个数 {
             head = head.left;
         }
         return level - 1;
+    }
+
+    public static int nodeNum2(Node head){
+        if(head == null){
+            return 0;
+        }
+        int leftCount = 0;
+        int rightCount = 0;
+        Node leftNode = head;
+        Node rightNode = head;
+        while(leftNode != null){
+            leftCount++;
+            leftNode = leftNode.left;
+        }
+        while(rightNode != null){
+            rightCount++;
+            rightNode = rightNode.right;
+        }
+        if(rightCount == leftCount){
+            return (1 << leftCount) - 1;
+        }else{
+            return 1 + nodeNum2(head.left) + nodeNum2(head.right);
+        }
+
     }
 
 }

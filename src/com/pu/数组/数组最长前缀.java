@@ -20,46 +20,23 @@ public class 数组最长前缀 {
         System.out.println(LongestPrefix(17, 19, nums));
     }
     public static int LongestPrefix(int X, int Y, int[] nums) {
-        if (nums == null || nums.length == 0) {
+        if(nums == null || nums.length == 0){
             return -1;
         }
-        if (X == Y) {
-            return nums.length;
-        }
-        Stack<Integer> xStack = new Stack<>();
-        Stack<Integer> yStack = new Stack<>();
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == X) {
-                xStack.push(i);
+        int cntX = 0;
+        int cntY = 0;
+        int ans = -1;
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] == X){
+                cntX++;
             }
-            if (nums[i] == Y) {
-                yStack.push(i);
+            if(nums[i] == Y ){
+                cntY++;
+            }
+            if(cntX > 0 && cntY > 0 && cntX == cntY){
+                ans = Math.max(ans, i);
             }
         }
-        if (xStack.isEmpty() || yStack.isEmpty()) {
-            return -1;
-        }
-        if (xStack.size() == yStack.size()) {
-            return nums.length - 1;
-        } else if (xStack.size() > yStack.size()) {
-            while (!yStack.isEmpty() && xStack.size() - yStack.size() > 1) {
-                if (xStack.peek() > yStack.peek()) {
-                    xStack.pop();
-                } else {
-                    yStack.pop();
-                }
-            }
-            return yStack.isEmpty() || xStack.peek() < yStack.peek() ? -1 : xStack.peek() - 1;
-        } else {
-            while (!xStack.isEmpty() && yStack.size() - xStack.size() > 1) {
-                if (yStack.peek() > xStack.peek()) {
-                    yStack.pop();
-                } else {
-                    xStack.pop();
-                }
-            }
-            return xStack.isEmpty() || yStack.peek() < xStack.peek() ? -1 : yStack.peek() - 1;
-        }
-
+        return ans;
     }
 }

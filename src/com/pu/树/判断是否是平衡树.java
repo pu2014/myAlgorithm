@@ -17,30 +17,34 @@ public class 判断是否是平衡树 {
             this.data = data;
         }
     }
-
+    public static class ReturnData{
+        public boolean isB;
+        public int H;
+        public ReturnData(boolean isB, int H){
+            this.isB = isB;
+            this.H = H;
+        }
+    }
     public static boolean isBalance2(Node head){
-        Boolean res = new Boolean(true);//值传递，不会改变。
-        int i = getHeight(head, 1, res);
-        return res;
+        return process(head).isB;
     }
 
-    private static int getHeight(Node head, int level, Boolean res) {
+    private static ReturnData process(Node head) {
         if(head == null){
-            return level;
+            return new ReturnData(true, 0);
         }
-        int lH = getHeight(head.left, level + 1 , res);
-        if(!res){
-            return level;
+        ReturnData leftData = process(head.left);
+        if(!leftData.isB){
+            return leftData;
         }
-        int rH = getHeight(head.right, level + 1, res);
-        if(!res){
-            return level;
+        ReturnData rightData = process(head.right);
+        if(!rightData.isB){
+            return rightData;
         }
-        if(Math.abs(lH - rH) > 1){
-            res = false;
+        if(Math.abs(leftData.H - rightData.H) > 1){
+            return new ReturnData(false, 0);
         }
-
-        return Math.max(lH, rH);
+        return new ReturnData(true, 1 + Math.max(leftData.H, rightData.H));
     }
     public static boolean isBalance1(Node head){
         Res dst = new Res(true);
