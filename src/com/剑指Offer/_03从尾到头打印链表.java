@@ -9,7 +9,7 @@ import java.util.Stack;
  * @author Pubojian
  * @date 2020/2/22 23:32
  */
-public class _03从头到尾打印链表 {
+public class _03从尾到头打印链表 {
     public static class ListNode {
         int val;
         ListNode next = null;
