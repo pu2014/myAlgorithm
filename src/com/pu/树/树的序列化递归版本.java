@@ -1,6 +1,6 @@
 package com.pu.树;
 
-import com.tools.Node;
+import com.tools.TreeNode;
 import com.tools.Print;
 
 /**
@@ -12,23 +12,23 @@ import com.tools.Print;
 public class 树的序列化递归版本 {
     private static int index = -1; //反序列化
     public static void main(String[] args) {
-        Node root = new Node(0);
-        root.left = new Node(1);
-        root.right = new Node(4);
-        root.left.left = new Node(2);
-        root.left.right = new Node(3);
-        root.right.right = new Node(5);
+        TreeNode root = new TreeNode(0);
+        root.left = new TreeNode(1);
+        root.right = new TreeNode(4);
+        root.left.left = new TreeNode(2);
+        root.left.right = new TreeNode(3);
+        root.right.right = new TreeNode(5);
         Print.printTree(root);
 
         String str = serializeOfPre(root);
         System.out.println(str);
-        Node node = Deserialize(str);
+        TreeNode node = Deserialize(str);
         Print.printTree(node);
         String str1 = serializeOfPre(node);
         System.out.println(str1);
     }
 
-    private static Node Deserialize(String str) {
+    private static TreeNode Deserialize(String str) {
         if(str == null || str.length() == 0){
             return null;
         }
@@ -36,10 +36,10 @@ public class 树的序列化递归版本 {
         return DeserializeHelper(strs);
     }
 
-    private static Node DeserializeHelper(String[] strs) {
+    private static TreeNode DeserializeHelper(String[] strs) {
         index++;
         if(!strs[index].equals("#")){
-            Node node = new Node(Integer.parseInt(strs[index]));
+            TreeNode node = new TreeNode(Integer.parseInt(strs[index]));
             node.left = DeserializeHelper(strs);
             node.right = DeserializeHelper(strs);
             return node;
@@ -47,7 +47,7 @@ public class 树的序列化递归版本 {
         return null;
     }
 
-    private static String serializeOfPre(Node root) {
+    private static String serializeOfPre(TreeNode root) {
         if(root == null){
             return "";
         }
@@ -56,7 +56,7 @@ public class 树的序列化递归版本 {
         return sb.toString();
     }
 
-    private static void serializeOfPreHelper(Node root, StringBuilder sb) {
+    private static void serializeOfPreHelper(TreeNode root, StringBuilder sb) {
         if(root == null){
             sb.append("#_");
             return;

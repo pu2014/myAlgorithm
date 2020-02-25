@@ -56,6 +56,7 @@ public class 仅用两个栈实现队列结构 {
         public int size(){
             return stack.size();
         }
+
         private void exchange(Stack s1,Stack s2){
             while (!s1.isEmpty()){
                 s2.push(s1.pop());

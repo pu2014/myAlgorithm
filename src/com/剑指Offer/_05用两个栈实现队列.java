@@ -20,9 +20,9 @@ public class _05用两个栈实现队列 {
         MyQueue<Node> mq = new MyQueue<Node>();
         mq.push(node1);
         mq.push(node2);
-        System.out.println(mq.pop().value);
+        System.out.println(mq.pop().val);
         mq.push(node3);
-        System.out.println(mq.pop().value);
+        System.out.println(mq.pop().val);
 
 
     }

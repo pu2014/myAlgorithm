@@ -1,4 +1,4 @@
-package com.pu.数组;
+package com.pu.单调队列;
 
 import java.util.LinkedList;
 

@@ -1,7 +1,5 @@
 package com.tools;
 
-import com.pu.链表.Node;
-import com.tools.Print;
 
 import java.util.List;
 
@@ -62,12 +60,12 @@ public class Print {
         }
     }
 
-    public static void printTree(com.tools.Node root){
+    public static void printTree(TreeNode root){
         printTreeHelper(root);
         System.out.println();
     }
 
-    private static void printTreeHelper(com.tools.Node root) {
+    private static void printTreeHelper(com.tools.TreeNode root) {
         if(root == null){
             return;
         }
@@ -78,7 +76,7 @@ public class Print {
 
     public static void printNode(Node head){
         if(head == null){
-            System.out.println("this LinkedList is null");
+            System.out.println("this Tree is null");
         }else{
             while(head != null){
                 if(head.next == null){

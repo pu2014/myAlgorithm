@@ -1,6 +1,6 @@
 package com.pu.树;
 
-import com.tools.Node;
+import com.tools.TreeNode;
 import com.tools.Queue;
 
 /**
@@ -20,13 +20,13 @@ import com.tools.Queue;
 
 public class 判断是否是完全二叉树 {
     public static void main(String[] args) {
-        Node head = new Node(3);
-        Node node1 = new Node(2);
-        Node node2 = new Node(1);
-        Node node3 = new Node(6);
-        Node node4 = new Node(4);
-        Node node5 = new Node(7);
-        Node node6 = new Node(8);
+        TreeNode head = new TreeNode(3);
+        TreeNode node1 = new TreeNode(2);
+        TreeNode node2 = new TreeNode(1);
+        TreeNode node3 = new TreeNode(6);
+        TreeNode node4 = new TreeNode(4);
+        TreeNode node5 = new TreeNode(7);
+        TreeNode node6 = new TreeNode(8);
 
         head.left = node1;
         head.right = node2;
@@ -40,7 +40,7 @@ public class 判断是否是完全二叉树 {
         System.out.println(isCST1(head));
     }
 
-    private static boolean isCST1(Node head) {
+    private static boolean isCST1(TreeNode head) {
        /**
         * Description:
         * @auther zuocongyun
@@ -48,10 +48,10 @@ public class 判断是否是完全二叉树 {
         if(head == null){
             return false;
         }
-        Queue<Node> queue = new Queue<>();
+        Queue<TreeNode> queue = new Queue<>();
         boolean leaf = false;
-        Node l = null;
-        Node r = null;
+        TreeNode l = null;
+        TreeNode r = null;
         queue.offer(head);
         while(!queue.isEmpty()){
             head = queue.poll();

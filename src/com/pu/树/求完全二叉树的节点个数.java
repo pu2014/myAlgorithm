@@ -1,6 +1,6 @@
 package com.pu.树;
 
-import com.tools.Node;
+import com.tools.TreeNode;
 
 /**
  * 已知一棵完全二叉树，求其节点的个数
@@ -16,13 +16,13 @@ import com.tools.Node;
  */
 public class 求完全二叉树的节点个数 {
     public static void main(String[] args) {
-        Node head = new Node(3);
-        Node node1 = new Node(2);
-        Node node2 = new Node(1);
-        Node node3 = new Node(6);
-        Node node4 = new Node(4);
-        Node node5 = new Node(7);
-        Node node6 = new Node(8);
+        TreeNode head = new TreeNode(3);
+        TreeNode node1 = new TreeNode(2);
+        TreeNode node2 = new TreeNode(1);
+        TreeNode node3 = new TreeNode(6);
+        TreeNode node4 = new TreeNode(4);
+        TreeNode node5 = new TreeNode(7);
+        TreeNode node6 = new TreeNode(8);
 
         head.left = node1;
         head.right = node2;
@@ -33,7 +33,7 @@ public class 求完全二叉树的节点个数 {
         System.out.println(nodeNum2(head));
     }
 
-    public static int nodeNum1(Node head){
+    public static int nodeNum1(TreeNode head){
         /**
          * Description:就判断右树的左边界是否到最后一层，到了左树就是满的，
          * 没到右树就是满的，只不过左树和右树满的高度不一样而已，
@@ -46,7 +46,7 @@ public class 求完全二叉树的节点个数 {
         return bs(head, 1, mostLeftLevel(head, 1));
     }
 
-    private static int bs(Node head, int level, int h) {
+    private static int bs(TreeNode head, int level, int h) {
         /**
          * h:整棵树的高度
          * level：当前层
@@ -64,7 +64,7 @@ public class 求完全二叉树的节点个数 {
         }
     }
 
-    private static int mostLeftLevel(Node head, int level) {
+    private static int mostLeftLevel(TreeNode head, int level) {
         while(head != null){
             level ++;
             head = head.left;
@@ -72,14 +72,14 @@ public class 求完全二叉树的节点个数 {
         return level - 1;
     }
 
-    public static int nodeNum2(Node head){
+    public static int nodeNum2(TreeNode head){
         if(head == null){
             return 0;
         }
         int leftCount = 0;
         int rightCount = 0;
-        Node leftNode = head;
-        Node rightNode = head;
+        TreeNode leftNode = head;
+        TreeNode rightNode = head;
         while(leftNode != null){
             leftCount++;
             leftNode = leftNode.left;

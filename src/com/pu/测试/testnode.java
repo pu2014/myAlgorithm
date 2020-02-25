@@ -1,7 +1,8 @@
 package com.pu.测试;
 
 
-import com.pu.链表.Node;
+
+import com.tools.Node;
 import com.tools.Print;
 
 import javax.tools.Tool;

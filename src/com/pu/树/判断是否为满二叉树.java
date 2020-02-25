@@ -1,6 +1,6 @@
 package com.pu.树;
 
-import com.tools.Node;
+import com.tools.TreeNode;
 
 /**
  * description：判断是否是满二叉树
@@ -10,13 +10,13 @@ import com.tools.Node;
  */
 public class 判断是否为满二叉树 {
     public static void main(String[] args) {
-        Node head = new Node(3);
-        Node node1 = new Node(2);
-        Node node2 = new Node(1);
-        Node node3 = new Node(6);
-        Node node4 = new Node(4);
-        Node node5 = new Node(7);
-        Node node6 = new Node(8);
+        TreeNode head = new TreeNode(3);
+        TreeNode node1 = new TreeNode(2);
+        TreeNode node2 = new TreeNode(1);
+        TreeNode node3 = new TreeNode(6);
+        TreeNode node4 = new TreeNode(4);
+        TreeNode node5 = new TreeNode(7);
+        TreeNode node6 = new TreeNode(8);
 
         head.left = node1;
         head.right = node2;
@@ -30,7 +30,7 @@ public class 判断是否为满二叉树 {
         System.out.println(isFBT(head));
     }
 
-    private static boolean isFBT(Node head) {
+    private static boolean isFBT(TreeNode head) {
         if(head == null){
             return false;
         }
