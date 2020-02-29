@@ -1,13 +1,13 @@
 # myAlgorithm
     主要是算法题的总结和归纳。包括leetcode/剑指offer
     
-## 数组问题
+>## 数组问题
     数组问题常见问题：
     1. 排序
     2. 查找某一个数
     3. 迷宫问题
     4. 子数组问题
-### 1：排序
+>### 1：排序
 java 常用的排序有Collections.sort 和 Arrays.sort的排序方法其中Collections.sort()对集合实现排序，其源码为：
   ```
   @SuppressWarnings({"unchecked", "rawtypes"})
@@ -26,7 +26,7 @@ java 常用的排序有Collections.sort 和 Arrays.sort的排序方法其中Coll
 1. 若你需要排序的是基本数据类型，则选择快速排序。若你需要排序的是引用数据类型，则选择归并排序。(基于稳定性考虑)因为基本数据类型之间无差异，不需要考虑排序算法稳定性，而归并排序则可以实现算法的稳定性。
 2. 当你需要排序的样本数量小于60，直接选择插入排序，虽然插入排序的时间复杂度为O(N²)，我们是忽略常数项得出来的O(N²)，但在魔数60以内，插入排序的时间复杂度为O(N²)的劣势体现不出来，反而插入排序常数项很低，导致在小样本情况下，插入排序极快。 如果一开始数组容量很大，但可以分治处理分<br>治后如果数组容量(L>R - 60)小于60，可以直接选择插排。当大样本下考虑情况1。
 
-#### 插入排序 N^2
+>#### 插入排序 N^2
 ```
 private static void insertSort(int[] arr) {
         if(arr.length < 2 || arr == null)
@@ -40,7 +40,7 @@ private static void insertSort(int[] arr) {
         }
     }
 ```
-#### 快速排序 NlogN
+>#### 快速排序 NlogN
 ```
 private static void quickSort(int[] arr) {
         quickSorting(arr,0,arr.length - 1);
@@ -71,7 +71,7 @@ private static void quickSort(int[] arr) {
         return new int[]{left,right};
     }
 ```
-#### 归并排序 NlogN
+>#### 归并排序 NlogN
 ```
 private static void mergeSort(int[] arr,int L,int R) {
         if (L == R)
@@ -98,6 +98,37 @@ private static void mergeSort(int[] arr,int L,int R) {
         }
         for (int j = 0; j < ex.length; j++) {
             arr[L + j] = ex[j];
+        }
+    }
+```
+>#### 选择排序和冒泡排序 N^2
+```
+private static void selectSort(int[] arr) {
+        if(arr == null || arr.length < 2)
+            return;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i; j < arr.length; j++) {
+                if(arr[j] < arr[i]){
+                    swap(arr,i,j);
+                }
+            }
+        }
+    }
+
+
+private static void bubbleSort(int[] arr) {
+        if(arr.length < 2 || arr == null){
+            return;
+        }
+        int temp = 0;
+        for (int i = arr.length -1 ; i >= 0; i--) {
+            for (int j = 0; j < i ; j++) {
+                if(arr[j] > arr[j + 1]){
+                    temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
         }
     }
 ```
