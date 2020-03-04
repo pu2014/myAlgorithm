@@ -26,9 +26,8 @@ public class 排序_冒泡排序 {
                     temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
+                }
             }
-        }
-
         }
     }
 
