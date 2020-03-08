@@ -55,7 +55,7 @@ public class Print {
                 System.out.print(arr[i] + ", ");
             }
             System.out.print(arr[i] +"]");
-            System.out.print("   size:" + i);
+            System.out.print("   size:" + arr.length);
             System.out.println();
         }
     }
