@@ -26,10 +26,6 @@ public class _12调整数组顺序使奇数位于偶数前面 {
         Print.printArray(arr2);
         new ReorderArray().reOrderArray2(arr2);
         Print.printArray(arr2);
-
-        Print.printArray(arr3);
-        new ReorderArray().reOrderArray3(arr3);
-        Print.printArray(arr3);
     }
 }
 class ReorderArray{
@@ -84,26 +80,4 @@ class ReorderArray{
 
         }
     }
-
-    public void reOrderArray3(int[] array) {
-        if (array == null || array.length == 0) {
-            return;
-        }
-        int even = 0;
-        for (int odd = 0; odd < array.length; odd++) {
-            //寻找奇数
-            if((array[odd] & 1) == 1){
-                int temp = array[odd];
-                int cur = odd;
-                while(cur > even){
-                    array[cur] = array[cur - 1];
-                    cur--;
-                }
-                even = cur + 1;
-                array[cur] = temp;
-            }
-
-        }
-    }
-
 }

@@ -24,6 +24,7 @@ public class 合并两个有序链表 {
         print(list1);
         print(list2);
         print(createdNodeMerge(list1, list2));
+
         //ListNode list3 = merge(list1,list2);
         //ListNode list4 = recurMerge(list1,list2);
         //print(list3);

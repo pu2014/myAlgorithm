@@ -13,4 +13,15 @@ public class Node {
     public Node(int val) {
         this.val = val;
     }
+
+    public static Node createNode(int len){
+        Node head = new Node(-1);
+        Node cur = head;
+        for(int i = 0; i < len; i++){
+            cur.next = new Node(i + 1);
+            cur = cur.next;
+        }
+        return head.next;
+    }
+
 }
