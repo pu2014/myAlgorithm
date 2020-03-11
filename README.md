@@ -132,3 +132,196 @@ private static void bubbleSort(int[] arr) {
         }
     }
 ```
+>#### 桶排序 O(M + N) 
+    先找出要排序的树的
+```
+public class 排序_桶排序 {
+    public static void main(String[] args){
+        int[] arr = createArr(10);
+        bucketSort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    private static void bucketSort(int[] arr) {
+        int min = getArrMin(arr);
+        int max = getArrMax(arr);
+        int len = (max -min)/10 + 1;
+        ArrayList<LinkedList<Integer>> bucket = new ArrayList<>(len);
+        for(int i = 0; i < len; i++){
+            bucket.add(new LinkedList<Integer>());
+        }
+        enterBucket(arr,bucket,min,len);
+        for(LinkedList<Integer> ll:bucket){
+            Collections.sort(ll);
+        }
+        outBucket(arr,bucket);
+
+    }
+
+    private static void outBucket(int[] arr, ArrayList<LinkedList<Integer>> bucket) {
+        int index = 0;
+        for(LinkedList<Integer> ll:bucket){
+            for(Integer i : ll){
+                arr[index++] = i;
+            }
+        }
+    }
+
+    private static void enterBucket(int[] arr, ArrayList<LinkedList<Integer>> bucket,int min,int len) {
+        for(int i = 0; i < arr.length; i++){
+            bucket.get((arr[i] - min) / 10).add(arr[i]);
+        }
+    }
+
+    private static int getArrMax(int[] arr) {
+        int max = Integer.MIN_VALUE;
+        for(int i = 0;i < arr.length;i++){
+            max = Math.max(max,arr[i]);
+        }
+        return max;
+    }
+
+    private static int getArrMin(int[] arr) {
+        int min = Integer.MAX_VALUE;
+        for(int i = 0;i <arr.length;i++){
+            min = Math.min(min,arr[i]);
+        }
+        return min;
+    }
+
+    private static int[] createArr(int n) {
+        int[] arr = new int[n];
+        for(int i = 0;i < n;i++){
+            arr[i] = (int)(Math.random() * 100);  // 0.0-0.99 包括0
+        }
+        System.out.println(Arrays.toString(arr));
+        return arr;
+    }
+}
+```
+#### 计数排序 o(n + k)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;类似桶排序，稳定
+```
+public class 排序_计数排序 {
+    public static void main(String[] args) {
+        int[] arr = createArr(10);
+        bucketSort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    private static void bucketSort(int[] arr) {
+        if(arr == null || arr.length < 2){
+            return;
+        }
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+        for (int i = 0; i < arr.length; i++) {
+            max = Math.max(max,arr[i]);
+            min = Math.min(min,arr[i]);
+        }
+        int[] bucket = new int[max - min + 1];
+        for (int i = 0; i < arr.length; i++) {
+            bucket[arr[i] - min]++;
+        }
+        int i = 0;
+        for (int j = 0; j < bucket.length; j++) {
+            while (bucket[j]-- > 0){
+                arr[i++] = j;
+            }
+        }
+    }
+
+    private static int[] createArr(int n) {
+        int[] arr = new int[n];
+        for(int i = 0;i < n;i++){
+            arr[i] = (int)(Math.random() * 100);  // 0.0-0.99 包括0
+        }
+        System.out.println(Arrays.toString(arr));
+        return arr;
+    }
+}
+```
+#### 堆排序 O(NlogN)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;堆是具有以下性质的完全二叉树：每个结点的值都大于或等于其左右孩子结点的值，称为大顶堆；或者每个结点的值都小于或等于其左右孩子结点的值，称为小顶堆。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;思路
+	 `大顶堆：arr[i] >= arr[2i+1] && arr[i] >= arr[2i+2]  
+	 小顶堆：arr[i] <= arr[2i+1] && arr[i] <= arr[2i+2]  `
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;序列的最大值就是堆顶的根节点。 将其与末尾元素进行交换，此时末尾就为最大值。然后将剩余n-1个元素重新构造成一个堆，这样会得到n个元素的次小值。如此反复执行，便能得到一个有序序列了
+```
+public class 排序_堆排序 {
+    public static void main(String[] args) {
+        int[] arr = new int[10];
+        int[] arr2 = new int[10];
+        for(int i = 0;i < 10;i++){
+            arr[i] = (int)(Math.random() * 100);  // 0.0-0.99 包括0
+        }
+        for(int i = 0;i < 10;i++){
+            arr2[i] = (int)(Math.random() * 100);  // 0.0-0.99 包括0
+        }
+        System.out.println(Arrays.toString(arr));
+        heapSort(arr);
+        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr2));
+        heapSort2(arr2);
+        System.out.println(Arrays.toString(arr2));
+    }
+
+    private static void heapSort2(int[] arr) {
+        if(arr == null || arr.length < 2){
+            return;
+        }
+        int heapSize = arr.length; //设置堆的大小
+        while (heapSize > 0){
+            for (int i = 0;i < heapSize;i++){
+                heapInsert(arr,i); 	//进入堆
+            }
+            swap(arr,0,--heapSize); //调整
+        }
+    }
+
+
+    private static void heapSort(int[] arr) {
+        if(arr == null || arr.length < 2){
+            return;
+        }
+        for (int i = 0; i < arr.length; i++) {
+            heapInsert(arr,i);
+        }
+        int heapSize = arr.length;
+        swap(arr,0,--heapSize);
+        while (heapSize > 0){
+            heapify(arr,0,heapSize);
+            swap(arr,0,--heapSize);
+        }
+
+    }
+
+    private static void heapify(int[] arr, int i, int heapSize) {
+        int left = i * 2 + 1;
+        int right = left + 1;
+        while(left < heapSize){
+            int largest = right < heapSize && arr[right] > arr[left] ? right : left;
+            largest = arr[largest] > arr[i] ? largest : i;
+            if(largest == i){
+                break;
+            }
+            swap(arr,largest,i);
+            i = largest;
+            left = i * 2 + 1;
+            right = left + 1;
+        }
+    }
+
+    private static void heapInsert(int[] arr, int i) {
+        while (i > 0 && arr[i] > arr[(i - 1) >> 1]) {
+            swap(arr, i, (i - 1) >> 1);
+            i = (i - 1) >> 1;
+        }
+    }
+    private static void swap(int arr[],int i,int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+}
+```
