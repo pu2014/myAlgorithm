@@ -24,7 +24,7 @@ public class 排序_桶排序 {
         int min = getArrMin(arr);
         int max = getArrMax(arr);
         int len = (max -min)/10 + 1;
-        ArrayList<LinkedList<Integer>> bucket = new ArrayList<>();
+        ArrayList<LinkedList<Integer>> bucket = new ArrayList<>(len);
         for(int i = 0; i < len; i++){
             bucket.add(new LinkedList<Integer>());
         }
@@ -75,6 +75,4 @@ public class 排序_桶排序 {
         System.out.println(Arrays.toString(arr));
         return arr;
     }
-
-
 }

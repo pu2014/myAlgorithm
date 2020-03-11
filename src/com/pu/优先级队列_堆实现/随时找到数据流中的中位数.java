@@ -19,15 +19,15 @@ import java.util.PriorityQueue;
 
 public class 随时找到数据流中的中位数 {
     static PriorityQueue<Integer> smallHeap = new PriorityQueue<>();
-    static PriorityQueue<Integer> bigHeap = new PriorityQueue<>(new numComparator());
-    //升序排列
+    static PriorityQueue<Integer> bigHeap = new PriorityQueue<>((o1, o2)->o2 - o1);
+    /*//升序排列
     public static class numComparator implements Comparator<Integer> {
 
         @Override
         public int compare(Integer o1, Integer o2) {
             return o2 - o1;
         }
-    }
+    }*/
 
     public static void main(String[] args){
         int[] arr= {2,3,4,5,6,3,2,4,7,8,1};
@@ -52,9 +52,7 @@ public class 随时找到数据流中的中位数 {
             while(smallHeap.size() - bigHeap.size() > 1){
                 bigHeap.add(smallHeap.poll());
             }
-            if(smallHeap.size() == bigHeap.size()){
-                return bigHeap.peek();
-            }else if(smallHeap.size() - bigHeap.size() > 0){
+            if(smallHeap.size() - bigHeap.size() > 0){
                 return smallHeap.peek();
             }else{
                 return bigHeap.peek();

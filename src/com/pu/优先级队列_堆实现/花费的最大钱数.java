@@ -30,8 +30,8 @@ public class 花费的最大钱数 {
         for(int i = 0;i < costs.length;i++){
             project[i] = new Node(costs[i],profits[i]);
         }
-        PriorityQueue<Node> minCostHeap = new PriorityQueue<>(new MinCostComparator());
-        PriorityQueue<Node> maxProfitHeap = new PriorityQueue<>(new MaxProfitComparator());
+        PriorityQueue<Node> minCostHeap = new PriorityQueue<>((n1, n2)->n1.cost-n2.cost);
+        PriorityQueue<Node> maxProfitHeap = new PriorityQueue<>((n1, n2)->n2.profit-n1.profit);
         for(int i = 0;i < costs.length;i++){
             minCostHeap.add(project[i]);
         }
@@ -42,6 +42,7 @@ public class 花费的最大钱数 {
             if(maxProfitHeap.isEmpty()){
                 return c;
             }
+            System.out.println(maxProfitHeap.peek().profit);
             c += maxProfitHeap.poll().profit;
         }
         return c;

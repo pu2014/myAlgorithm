@@ -13,6 +13,12 @@ import java.util.Arrays;
         交换调整    O(NlogN)  额外空间也为O(1)
         所以 O(NlogN)
         不稳定
+
+        大顶堆：arr[i] >= arr[2i+1] && arr[i] >= arr[2i+2]
+        小顶堆：arr[i] <= arr[2i+1] && arr[i] <= arr[2i+2]
+        堆排序的基本思想是：将待排序序列构造成一个大顶堆，此时，整个序列的最大值就是堆顶的根节点。
+        将其与末尾元素进行交换，此时末尾就为最大值。然后将剩余n-1个元素重新构造成一个堆，
+        这样会得到n个元素的次小值。如此反复执行，便能得到一个有序序列了
  */
 
 public class 排序_堆排序 {
@@ -79,6 +85,11 @@ public class 排序_堆排序 {
         }
     }
 
+    /**
+     * 如果
+     * @param arr
+     * @param i
+     */
     private static void heapInsert(int[] arr, int i) {
         while (i > 0 && arr[i] > arr[(i - 1) >> 1]) {
             swap(arr, i, (i - 1) >> 1);

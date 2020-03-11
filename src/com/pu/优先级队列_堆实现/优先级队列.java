@@ -22,13 +22,11 @@ public class 优先级队列 {
         heap.add(5);
         heap.add(9);
         heap.add(0);
-        System.out.println(heap.poll());
-        System.out.println(heap.poll());
-        System.out.println(heap.poll());
-        System.out.println(heap.poll());
-        System.out.println(heap.poll());
-        System.out.println(heap.poll());
+        while(!heap.isEmpty()){
+            System.out.println(heap.poll());
+        }
 
+        /**
         PriorityQueue<Student>  heap1 = new PriorityQueue<>(new Comparator<Student>(){
 
             @Override
@@ -36,6 +34,8 @@ public class 优先级队列 {
                 return o1.age - o2.age;
             }
         });
+         */
+        PriorityQueue<Student> heap1 = new PriorityQueue<>((o1, o2)-> o1.age - o2.age);
         heap1.add(new Student(1,17));
         heap1.add(new Student(4,2));
         heap1.add(new Student(5,3));
