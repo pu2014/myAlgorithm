@@ -2,6 +2,8 @@ package com.pu.链表;
 
 import com.tools.Print;
 
+import java.math.BigInteger;
+
 public class 反转单向链表和反转双向链表 {
     public static void main(String[] args){
         Node head = new Node(1);
@@ -59,6 +61,7 @@ public class 反转单向链表和反转双向链表 {
             this.value = value;
         }
     }
+    //todo 迭代
     public static Node reverseList(Node head){
         Node pre = null;
         Node next;
@@ -69,6 +72,16 @@ public class 反转单向链表和反转双向链表 {
             head = next;
         }
         return pre;
+    }
+    //todo 递归
+    public static Node reverseList2(Node head){
+        if(head == null || head.next == null){
+            return head;
+        }
+        Node newHead = reverseList2(head.next);
+        head.next.next = head;
+        head.next = null;
+        return newHead;
     }
 
     public static DoubleNode reverseDoubleList(DoubleNode head){
