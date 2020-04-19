@@ -33,7 +33,7 @@ public class _03从尾到头打印链表 {
         System.out.println(listRec.toString());
     }
 
-
+    //栈实现
     public static ArrayList<Integer> printListFromTailToHead(ListNode node) {
         ArrayList<Integer> res = new ArrayList<>();
         Stack<Integer> stack = new Stack<>();
@@ -46,7 +46,7 @@ public class _03从尾到头打印链表 {
         }
         return res;
     }
-
+    //递归版本
     static ArrayList<Integer> listRecursive = new ArrayList<>();
 
     public static ArrayList<Integer> printListFromTailToHeadRecursive(ListNode node) {

@@ -26,6 +26,8 @@ public class _10二进制中1的个数 {
     }
 }
 class NumberOf1 {
+
+    //求与  011 & 100 == 000 100 只有一个1
     public int fun1(int n) {
         int res = 0;
         while(n != 0){

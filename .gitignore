@@ -1,3 +1,6 @@
 .idea/
 .gitignore
 *.iml
+/Algorithm.iml
+/.idea/
+/.gitignore

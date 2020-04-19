@@ -17,6 +17,7 @@ public class _11数值的整数次方 {
 
 }
 class MyPower {
+    //快速幂法
     public double Power(double base, int exponent) {
         if(exponent == 0){
             return 1;

@@ -64,8 +64,7 @@ public class 复制含有随机指针结点的链表 {
         Node cur = head;
         HashMap<Node,Node> map = new HashMap<>();   // Use map to achieve one-to-one correspondence
         while(cur != null){
-            Node node = new Node(cur.value);
-            map.put(cur,node);
+            map.put(cur,new Node(cur.value));
             cur = cur.next;
         }
         cur = head;

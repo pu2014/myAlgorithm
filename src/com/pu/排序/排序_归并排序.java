@@ -27,7 +27,7 @@ public class 排序_归并排序 {
     private static void mergeSort(int[] arr,int L,int R) {
         if (L == R)
             return;
-        int mid = (L + R) >> 1;
+        int mid = L + ((R - L) >> 1);
         mergeSort(arr,L,mid);
         mergeSort(arr,mid + 1,R);
         merge(arr,L,mid,R);

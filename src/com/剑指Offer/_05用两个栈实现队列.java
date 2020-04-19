@@ -30,11 +30,12 @@ public class _05用两个栈实现队列 {
 class MyQueue<T>{
     private Stack<T> s1 = new Stack<>();
     private Stack<T> s2 = new Stack<>();
-
+    //stack1 进入
     public void push(T t){
         s1.push(t);
     }
-
+    //stack2 为空，需要返回stack1的最大值，所以需要将stack1移到stack2，取得前面的值
+    //stack2 不为空， 直接返回栈顶元素即可
     public T pop(){
         if(s2.isEmpty()){
             while(!s1.isEmpty()){
