@@ -116,12 +116,36 @@ public class 判断是否是平衡树 {
         boolean b = isBalance1(head);
         boolean c = isBalance2(head);
         boolean d = isBalance3(head);
+        boolean e = isBalance4(head);
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
         System.out.println(d);
+        System.out.println(e);
 
 
+    }
+
+    private static boolean isBalance4(Node head) {
+        return getHeight4(head, 0) != -1;
+    }
+
+    private static int getHeight4(Node head, int depth) {
+        if(head == null){
+            return depth;
+        }
+        int left = getHeight4(head.left, depth);
+        if(left == -1){
+            return -1;
+        }
+        int right = getHeight4(head.right, depth);
+        if(right == -1){
+            return -1;
+        }
+        if(Math.abs(left - right) > 1){
+            return -1;
+        }
+        return Math.max(left, right) + 1;
     }
 
     private static boolean isBalance3(Node head) {
