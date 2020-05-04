@@ -69,7 +69,7 @@ public class Print {
         if(root == null){
             return;
         }
-        System.out.print(root.value + " ");
+        System.out.print(root.val + " ");
         printTreeHelper(root.left);
         printTreeHelper(root.right);
     }

@@ -62,7 +62,7 @@ public class 树的序列化递归版本 {
             return;
         }
         //
-        sb.append(root.value + "_");
+        sb.append(root.val + "_");
         serializeOfPreHelper(root.left, sb);
         serializeOfPreHelper(root.right, sb);
     }

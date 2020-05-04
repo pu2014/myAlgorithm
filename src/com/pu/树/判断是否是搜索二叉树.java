@@ -41,12 +41,12 @@ public class 判断是否是搜索二叉树 {
             return true;
         }
         if(head.left != null){
-            if(head.left.value >  head.value){
+            if(head.left.val >  head.val){
                 return false;
             }
         }
         if(head.right != null){
-            if(head.right.value < head.value){
+            if(head.right.val < head.val){
                 return false;
             }
         }
@@ -75,7 +75,7 @@ public class 判断是否是搜索二叉树 {
                     cur2.right = null;
                 }
             }
-            if (pre != null && pre.value > cur1.value) {
+            if (pre != null && pre.val > cur1.val) {
                 res = false;
             }
             pre = cur1;
@@ -93,8 +93,8 @@ public class 判断是否是搜索二叉树 {
                 head = head.left;
             } else {
                 head = stack.pop();
-                if (last < head.value) {
-                    last = head.value;
+                if (last < head.val) {
+                    last = head.val;
                 } else {
                     return false;
                 }

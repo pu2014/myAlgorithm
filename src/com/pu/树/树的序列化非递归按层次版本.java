@@ -59,7 +59,7 @@ public class 树的序列化非递归按层次版本 {
             if(node != null){
                 queue.offer(node.left);
                 queue.offer(node.right);
-                sb.append(node.value + "_");
+                sb.append(node.val + "_");
             }else{
                 sb.append("#_");
             }

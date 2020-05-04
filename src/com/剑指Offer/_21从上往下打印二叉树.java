@@ -35,7 +35,7 @@ class PrintFromTopToBottom{
         queue.offer(root);
         while(!queue.isEmpty()){
             TreeNode cur = queue.poll();
-            list.add(cur.value);
+            list.add(cur.val);
             if(cur.left != null){
                 queue.offer(cur.left);
             }

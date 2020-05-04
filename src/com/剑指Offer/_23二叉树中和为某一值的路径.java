@@ -36,8 +36,8 @@ class FindPath{
         if(root == null){
             return res;
         }
-        arr.add(root.value);
-        target -= root.value;
+        arr.add(root.val);
+        target -= root.val;
         if(target == 0 && root.left == null && root.right == null){
             res.add(new ArrayList<>(arr));
         }
@@ -50,7 +50,7 @@ class FindPath{
     public ArrayList<ArrayList<Integer>> method2(TreeNode root,int target) {
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
         ArrayList<Integer> arr = new ArrayList<>();
-        if(root == null || target < root.value){
+        if(root == null || target < root.val){
             return list;
         }
         Find(list, arr, root, target);
@@ -63,14 +63,14 @@ class FindPath{
         if(root == null){
             return;
         }
-        if(root.value == target && root.left == null && root.right == null){
-            arr.add(root.value);
+        if(root.val == target && root.left == null && root.right == null){
+            arr.add(root.val);
             list.add(arr);
             return;
         }else{
-            arr.add(root.value);
-            Find(list, new ArrayList<>(arr), root.left, target - root.value);
-            Find(list, new ArrayList<>(arr), root.right, target - root.value);
+            arr.add(root.val);
+            Find(list, new ArrayList<>(arr), root.left, target - root.val);
+            Find(list, new ArrayList<>(arr), root.right, target - root.val);
         }
     }
 }

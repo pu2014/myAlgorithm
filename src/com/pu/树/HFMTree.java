@@ -61,7 +61,7 @@ public class HFMTree {
             return;
         }
         if(root.data != null){
-            System.out.println(root.data + "--coding--" + root.cd);
+            System.out.println(root.data + "--com.coding--" + root.cd);
         }
         showCode(root.lChild);
         showCode(root.rChild);
