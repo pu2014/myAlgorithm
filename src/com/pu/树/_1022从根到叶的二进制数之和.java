@@ -8,7 +8,7 @@ import com.tools.TreeNode;
  * 对树上的每一片叶子，我们都要找出从根到该叶子的路径所表示的数字。
  * 以 10^9 + 7 为模，返回这些数字之和
  */
-public class _01从根到叶的二进制数之和 {
+public class _1022从根到叶的二进制数之和 {
     public static void main(String[] args) {
         SumRootToLeaf solution = new SumRootToLeaf();
         TreeNode root = new TreeNode(1);

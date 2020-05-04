@@ -16,7 +16,7 @@ package com.pu.树;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  * @CREATE BY @Author pbj on @Date 2020/5/4 10:13
  */
-public class _02二叉树的直径 {
+public class _543二叉树的直径 {
     public static void main(String[] args) {
         DiameterOfBinaryTree pro = new DiameterOfBinaryTree();
         TreeNode root = new TreeNode(1);
