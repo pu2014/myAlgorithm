@@ -30,7 +30,7 @@ public class 树的非递归遍历 {
     }
 
     private static void posOrderOnlyOneStack(Tree.Node head){
-        System.out.print("proOrder：");
+        System.out.print("posOrder：");
         if(head != null){
             Stack<Tree.Node> stack = new Stack<>();
             stack.push(head);
