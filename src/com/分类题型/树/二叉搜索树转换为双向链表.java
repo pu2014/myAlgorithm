@@ -11,21 +11,21 @@ import java.util.List;
  **/
 public class 二叉搜索树转换为双向链表 {
 
-    static TreeNode pre = null;
+    static MyTreeNode pre = null;
 
     public static  void main(String[] args){
-        TreeNode root = new TreeNode(5);
-        root.left = new TreeNode(3);
-        root.left.right = new TreeNode(4);
-        root.left.left = new TreeNode(1);
-        root.right = new TreeNode(8);
-        root.right.right = new TreeNode(10);
-        root.right.left = new TreeNode(6);
+        MyTreeNode root = new MyTreeNode(5);
+        root.left = new MyTreeNode(3);
+        root.left.right = new MyTreeNode(4);
+        root.left.left = new MyTreeNode(1);
+        root.right = new MyTreeNode(8);
+        root.right.right = new MyTreeNode(10);
+        root.right.left = new MyTreeNode(6);
 
         preTail(root);
         System.out.println();
 
-        TreeNode head2 = covert2(root);
+        MyTreeNode head2 = covert2(root);
         print(head2);
         System.out.println();
 
@@ -37,7 +37,7 @@ public class 二叉搜索树转换为双向链表 {
 
     }
 
-    public static TreeNode covert2(TreeNode root) {
+    public static MyTreeNode covert2(MyTreeNode root) {
         /**
          *@Description：using a new node
          *@Author: newcoder
@@ -59,13 +59,13 @@ public class 二叉搜索树转换为双向链表 {
     }
 
 
-    private static TreeNode covert(TreeNode root) {
+    private static MyTreeNode covert(MyTreeNode root) {
         /**
          *@Description：using Arraylist
          *@Author: pbj
          *@Date: 2019/11/20 20:24
          **/
-        List<TreeNode> list = new ArrayList<>(20);
+        List<MyTreeNode> list = new ArrayList<>(20);
         process(list, root);
         for(int i = 0; i < list.size() - 1; i++){
             list.get(i).right = list.get(i + 1);
@@ -74,7 +74,7 @@ public class 二叉搜索树转换为双向链表 {
         return list.get(0);
     }
 
-    private static void process(List<TreeNode> list, TreeNode root) {
+    private static void process(List<MyTreeNode> list, MyTreeNode root) {
         /**
          *@Description：前序遍历加入List
          *@Author:
@@ -88,7 +88,7 @@ public class 二叉搜索树转换为双向链表 {
         process(list, root.right);
     }
 
-    private static void preTail(TreeNode root) {
+    private static void preTail(MyTreeNode root) {
         /**
          *@Description：前序遍历一下搜索二叉树
          *@Author:
@@ -102,7 +102,7 @@ public class 二叉搜索树转换为双向链表 {
         preTail(root.right);
     }
 
-    private static void print(TreeNode head) {
+    private static void print(MyTreeNode head) {
         while(head != null){
             System.out.print(head.val + " ");
             head = head.right;
@@ -110,12 +110,12 @@ public class 二叉搜索树转换为双向链表 {
     }
 }
 
-class TreeNode {
+class MyTreeNode {
     int val = 0;
-    TreeNode left = null;
-    TreeNode right = null;
+    MyTreeNode left = null;
+    MyTreeNode right = null;
 
-    public TreeNode(int val) {
+    public MyTreeNode(int val) {
         this.val = val;
 
     }

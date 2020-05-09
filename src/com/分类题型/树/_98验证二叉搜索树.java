@@ -1,6 +1,7 @@
 package com.分类题型.树;
 
 import java.util.Stack;
+import com.tools.TreeNode;
 
 /**
  * @DESC 给定一个二叉树，判断其是否是一个有效的二叉搜索树。
