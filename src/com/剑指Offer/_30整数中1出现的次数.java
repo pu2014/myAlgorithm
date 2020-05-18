@@ -41,7 +41,7 @@ class NumberOf1Between1AndN_Solution {
             }else if(a % 10 == 1){
                 count += (a / 10) * i + (b + 1);
             }else{
-                count += (a / 10 + 1) * i;
+                count += (a / 10) * i + i;
             }
         }
         return count;
