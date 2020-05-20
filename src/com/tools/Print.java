@@ -30,6 +30,9 @@ public class Print {
         }
         System.out.println();
     }
+    public static void out(Object obj){
+        System.out.println(obj.toString());
+    }
     public static void printArray(Integer[] arr){
         if(arr.length == 0){
             System.out.println("This array is empty");
