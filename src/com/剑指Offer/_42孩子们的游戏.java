@@ -1,6 +1,6 @@
 package com.剑指Offer;
 
-import com.tools.Node;
+import com.tools.ListNode;
 
 import java.util.Scanner;
 
@@ -30,10 +30,10 @@ class LastRemainingSolution {
         if(n < 1 || m < 0){
             return -1;
         }
-        Node head = new Node(0);
-        Node cur = head;
+        ListNode head = new ListNode(0);
+        ListNode cur = head;
         for(int i = 1; i < n; i++){
-            cur.next = new Node(i);
+            cur.next = new ListNode(i);
             cur = cur.next;
         }
         cur.next = head;

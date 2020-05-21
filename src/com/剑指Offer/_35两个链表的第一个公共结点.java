@@ -1,5 +1,5 @@
 package com.剑指Offer;
-import com.tools.Node;
+import com.tools.ListNode;
 import com.tools.Print;
 
 /**
@@ -9,22 +9,22 @@ import com.tools.Print;
 
 public class _35两个链表的第一个公共结点 {
     public static void main(String[] args) {
-        Node pHead1 = new Node(1);
-        pHead1.next = new Node(2);
-        pHead1.next.next = new Node(3);
+        ListNode pHead1 = new ListNode(1);
+        pHead1.next = new ListNode(2);
+        pHead1.next.next = new ListNode(3);
 
-        Node pHead2 = pHead1.next;
+        ListNode pHead2 = pHead1.next;
 
         Print.printNode(new FindFirstCommonNode().fun(pHead1,pHead2));
     }
 }
 class FindFirstCommonNode {
-    public Node fun(Node pHead1, Node pHead2) {
+    public ListNode fun(ListNode pHead1, ListNode pHead2) {
         if(pHead1 == null || pHead2 == null) {
             return null;
         }
-        Node p1 = pHead1;
-        Node p2 = pHead2;
+        ListNode p1 = pHead1;
+        ListNode p2 = pHead2;
         while(p1 != null && p2 != null){
             if(p1.val == p2.val && p1.next == p2.next){
                 return p1;

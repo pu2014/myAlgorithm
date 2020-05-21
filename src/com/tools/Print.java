@@ -91,7 +91,7 @@ public class Print {
 
     }
 
-    public static void printNode(Node head){
+    public static void printNode(ListNode head){
         if(head == null){
             System.out.println("this Tree is null");
         }else{

@@ -1,6 +1,6 @@
 package com.剑指Offer;
 
-import com.tools.Node;
+import com.tools.ListNode;
 
 import java.util.Stack;
 
@@ -13,11 +13,11 @@ import java.util.Stack;
 public class _05用两个栈实现队列 {
     public static void main(String[] args) {
 
-        Node node1 = new Node(2);
-        Node node2 = new Node(3);
-        Node node3 = new Node(4);
+        ListNode node1 = new ListNode(2);
+        ListNode node2 = new ListNode(3);
+        ListNode node3 = new ListNode(4);
 
-        MyQueue<Node> mq = new MyQueue<Node>();
+        MyQueue<ListNode> mq = new MyQueue<ListNode>();
         mq.push(node1);
         mq.push(node2);
         System.out.println(mq.pop().val);

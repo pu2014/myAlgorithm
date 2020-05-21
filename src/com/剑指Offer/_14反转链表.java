@@ -1,6 +1,6 @@
 package com.剑指Offer;
 
-import com.tools.Node;
+import com.tools.ListNode;
 import com.tools.Print;
 
 /**
@@ -11,15 +11,15 @@ import com.tools.Print;
  */
 public class _14反转链表 {
     public static void main(String[] args) {
-        Node head = Node.createNode(6);
+        ListNode head = ListNode.createListNode(6);
         Print.printNode(head);
         Print.printNode(new ReverseList().method(head));
     }
 }
 class ReverseList {
-    public Node method(Node head) {
-        Node pre = null;
-        Node next = null;
+    public ListNode method(ListNode head) {
+        ListNode pre = null;
+        ListNode next = null;
         while(head != null){
             next = head.next;
             head.next = pre;
