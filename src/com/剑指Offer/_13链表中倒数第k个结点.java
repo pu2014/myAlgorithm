@@ -1,6 +1,6 @@
 package com.剑指Offer;
 
-import com.tools.Node;
+import com.tools.ListNode;
 import com.tools.Print;
 
 import java.util.List;
@@ -13,21 +13,21 @@ import java.util.List;
  */
 public class _13链表中倒数第k个结点 {
     public static void main(String[] args) {
-        Node head = new Node(0);
-        head.next = new Node(1);
-        head.next.next = new Node(2);
-        head.next.next.next = new Node(3);
-        head.next.next.next = new Node(4);
-        head.next.next.next.next = new Node(5);
+        ListNode head = new ListNode(0);
+        head.next = new ListNode(1);
+        head.next.next = new ListNode(2);
+        head.next.next.next = new ListNode(3);
+        head.next.next.next = new ListNode(4);
+        head.next.next.next.next = new ListNode(5);
         Print.printNode(head);
         System.out.println(new FindKthToTail().method(head, 4).val);
     }
 }
 class FindKthToTail {
-    public Node method(Node head, int k) {
+    public ListNode method(ListNode head, int k) {
         //双指针
-        Node fast = head;
-        Node slow = head;
+        ListNode fast = head;
+        ListNode slow = head;
         while(k > 0 && fast != null){
             fast = fast.next;
             k--;

@@ -1,6 +1,6 @@
 package com.剑指Offer;
 
-import com.tools.Node;
+import com.tools.ListNode;
 import com.tools.Print;
 
 /**
@@ -11,13 +11,13 @@ import com.tools.Print;
  */
 public class _15合并两个排序的链表 {
     public static void main(String[] args) {
-        Node list1 = Node.createNode(3);
-        Node list2 = Node.createNode(5);
+        ListNode list1 = ListNode.createListNode(3);
+        ListNode list2 = ListNode.createListNode(5);
         Print.printNode(new MergeTwoLists().Merge(list1, list2));
     }
 }
 class MergeTwoLists {
-    public Node Merge(Node list1, Node list2) {
+    public ListNode Merge(ListNode list1, ListNode list2) {
         if(list1 == null){
             return list2;
         }

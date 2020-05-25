@@ -1,6 +1,7 @@
 package com.tools;
 
 
+import java.util.LinkedList;
 import java.util.List;
 
 public class Print {
@@ -28,6 +29,9 @@ public class Print {
             }
         }
         System.out.println();
+    }
+    public static void out(Object obj){
+        System.out.println(obj.toString());
     }
     public static void printArray(Integer[] arr){
         if(arr.length == 0){
@@ -61,20 +65,33 @@ public class Print {
     }
 
     public static void printTree(TreeNode root){
-        printTreeHelper(root);
-        System.out.println();
-    }
-
-    private static void printTreeHelper(com.tools.TreeNode root) {
+        List<Integer> list = new LinkedList<>();
         if(root == null){
+            list.add(null);
+            System.out.println(list);
             return;
         }
-        System.out.print(root.value + " ");
-        printTreeHelper(root.left);
-        printTreeHelper(root.right);
+        Queue<TreeNode> queue = new Queue<>();
+        queue.offer(root);
+        while(!queue.isEmpty()){
+            TreeNode cur = queue.poll();
+            if(cur == null){
+                list.add(null);
+            } else{
+                list.add(cur.val);
+                if(cur.left == null && cur.right == null){
+                    continue;
+                }
+                queue.offer(cur.left);
+                queue.offer(cur.right);
+
+            }
+        }
+        System.out.println(list);
+
     }
 
-    public static void printNode(Node head){
+    public static void printNode(ListNode head){
         if(head == null){
             System.out.println("this Tree is null");
         }else{

@@ -33,7 +33,7 @@ class HasSubtree {
         if(root1 == null){
             return false;
         }
-        return root1.value == root2.value
+        return root1.val == root2.val
                 && isSame(root1.left, root2.left)
                 && isSame(root1.right, root2.right);
     }

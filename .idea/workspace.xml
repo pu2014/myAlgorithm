@@ -1,9 +1,245 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ba56835-eba4-4b51-9c86-c8547cb02300" name="Default Changelist" comment="复制复杂链表">
-      <change afterPath="$PROJECT_DIR$/src/com/test.java" afterDir="false" />
+    <list default="true" id="5ba56835-eba4-4b51-9c86-c8547cb02300" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/tools/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/排序/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/数字/判断是否是2的幂次方.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/数组/_42接雨水.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/栈列/最长的包含有效括号的子串的长度.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_101对称二叉树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_1022从根到叶的二进制数之和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_1026节点与其祖先之间的最大差值.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_1028从先序遍历还原二叉树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_102二叉树的层序遍历.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_103二叉树的锯齿形层次遍历.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_109有序链表转换二叉搜索树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_113路径总和II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_114二叉树展开为链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_1305两棵二叉搜索树中的所有元素.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_144二叉树的前序遍历.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_145二叉树的后序遍历.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_543二叉树的直径.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_563二叉树的坡度.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_572另一个树的子树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_606根据二叉树创建字符串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_617合并二叉树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_623在二叉树中增加一行.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_637二叉树的层平均值.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_94二叉树的中序遍历.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_98验证二叉搜索树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/树/_99恢复二叉搜索树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/背包问题/ACwing_02_01背包问题.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/背包问题/ACwing_03_完全背包问题.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/分类题型/高级算法/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_31把数组排成最小的数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_32丑数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_33第一个只出现一次的字符.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_34数组中的逆序对.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_35两个链表的第一个公共结点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_36数字在排序数组中出现的次数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_37二叉树的深度.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_38数组中只出现一次的数字.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_39和为S的连续正数序列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_40和为S的两个数字.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_41扑克牌顺子.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_42孩子们的游戏.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_43求1到n的等差和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_44不用加减乘除做加法.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_45把字符串转换成整数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_46数组中重复的数字.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_47构建乘积数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_48表示数值的字符串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_49字符流中第一个不重复的字符.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/剑指Offer/_50链表中环的入口结点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/笔试/huaweisx/HWSXMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/笔试/huaweisx/HWSXMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/笔试/huaweisx/HWSXMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/面试题/EuclideanAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/面试题/IsPowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/面试题/LinkedHashMapImplLRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/面试题/PrecisionOpenRootOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/面试题/SingleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/面试题/UseBigInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01优先级队列PriorityQueue.md" beforeDir="false" afterPath="$PROJECT_DIR$/_01优先级队列PriorityQueue.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03各种排序算法的总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/_03各种排序算法的总结.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LeetCode/_05数组的删除重复和移除元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LeetCode/_05数组的删除重复和移除元素.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/优先级队列_堆实现/优先级队列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/优先级队列_堆实现/优先级队列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/优先级队列_堆实现/花费的最大钱数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/优先级队列_堆实现/花费的最大钱数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/优先级队列_堆实现/金条切两半花费铜板问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/优先级队列_堆实现/金条切两半花费铜板问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/优先级队列_堆实现/随时找到数据流中的中位数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/优先级队列_堆实现/随时找到数据流中的中位数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/位操作运算/与运算的短路原理代替判断.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/位操作运算/与运算的短路原理代替判断.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/前缀树/前缀树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/前缀树/前缀树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/前缀树/子数组的最大异或和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/前缀树/子数组的最大异或和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/动态规划/N级台阶问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/动态规划/N级台阶问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/动态规划/二维数组最短路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/动态规划/二维数组最短路径.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/动态规划/凑零钱问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/动态规划/凑零钱问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/动态规划/数组任意数字匹配指定值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/动态规划/数组任意数字匹配指定值.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/动态规划/数组数字无限次使用匹配数字的次数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/动态规划/数组数字无限次使用匹配数字的次数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/动态规划/正则表达式匹配.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/动态规划/正则表达式匹配.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/单调栈/滑动窗口最大值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/单调栈/滑动窗口最大值.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/单调栈/直方图的最大面积.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/单调栈/直方图的最大面积.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/单调栈/矩阵中全为1构成的的最大矩形面积.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/单调栈/矩阵中全为1构成的的最大矩形面积.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/单调栈/网易环形山.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/单调栈/网易环形山.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/单调队列/最大值减去最小值小于或等于num的子数组数量.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/单调队列/最大值减去最小值小于或等于num的子数组数量.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/哈希/一致性哈希.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/哈希/一致性哈希.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/哈希/布隆过滤器设计.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/哈希/布隆过滤器设计.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/哈希/设计RandomPool结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/哈希/设计RandomPool结构.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/图/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/图/BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/图/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/图/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/图/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/图/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/图/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/图/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/图/GraphGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/图/GraphGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/图/Kruskal最小生成树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/图/Kruskal最小生成树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/图/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/图/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/图/Prim最小生成树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/图/Prim最小生成树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/图/dijkstra最短路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/图/dijkstra最短路径.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/图/图的遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/图/图的遍历.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/图/拓扑排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/图/拓扑排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/字符串/KMP问题之串的包含问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/字符串/KMP问题之串的包含问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/字符串/Manacher算法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/字符串/Manacher算法.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/字符串/不含有重复字符的最长子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/字符串/不含有重复字符的最长子串.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/字符串/串的相同前后缀应用.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/字符串/串的相同前后缀应用.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/字符串/打印字符串的所有排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/字符串/打印字符串的所有排列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/字符串/替换字符串的空格.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/字符串/替换字符串的空格.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/字符串/最长回文子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/字符串/最长回文子串.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/字符串/第一个只出现一次的字符.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/字符串/第一个只出现一次的字符.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/字符串/翻转句子.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/字符串/翻转句子.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/字符串/计算字符串之间的最短距离.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/字符串/计算字符串之间的最短距离.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/排序/java的内部排序实现.readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/排序/java的内部排序实现.readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/排序/排序_冒泡排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/排序/排序_冒泡排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/排序/排序_堆排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/排序/排序_堆排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/排序/排序_归并排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/排序/排序_归并排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/排序/排序_快速排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/排序/排序_快速排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/排序/排序_插入排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/排序/排序_插入排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/排序/排序_桶排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/排序/排序_桶排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/排序/排序_计数排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/排序/排序_计数排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/排序/排序_选择排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/排序/排序_选择排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/排序/计数排序的升级面试题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/排序/计数排序的升级面试题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数字/丑数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数字/丑数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数字/从1到n整数中1出现的次数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数字/从1到n整数中1出现的次数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数字/剪绳子.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数字/剪绳子.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数字/数字是否是回文的.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数字/数字是否是回文的.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数字/水花仙数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数字/水花仙数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数字/进制转换/为求一个数的二进制表示中最右边1所对应的值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数字/进制转换/为求一个数的二进制表示中最右边1所对应的值.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数字/进制转换/二进制中1的个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数字/进制转换/二进制中1的个数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数字/进制转换/求N阶乘末尾0的个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数字/进制转换/求N阶乘末尾0的个数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数字/进制转换/求数二进制末尾0的个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数字/进制转换/求数二进制末尾0的个数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/Top_K问题BFPRT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/Top_K问题BFPRT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/两不重复数组找相同.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/两不重复数组找相同.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/之字形打印矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/之字形打印矩阵.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/二分查找问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/二分查找问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/删除排序数组中的重复项.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/删除排序数组中的重复项.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/在数组中找到一个局部最小的位置.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/在数组中找到一个局部最小的位置.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/子数组中奇数偶数相同的最大长度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/子数组中奇数偶数相同的最大长度.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/子数组之和为aim的最大长度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/子数组之和为aim的最大长度.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/子数组异或核之和的最大值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/子数组异或核之和的最大值.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/寻找两个有序数组的中位数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/寻找两个有序数组的中位数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/岛问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/岛问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/排序矩阵中找数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/排序矩阵中找数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/数组中出现次数超过一半的数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/数组中出现次数超过一半的数字.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/数组中只出现一次的数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/数组中只出现一次的数字.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/数组中寻找三数之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/数组中寻找三数之和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/数组交换位置_空间度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/数组交换位置_空间度.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/数组奇偶划分不改变次序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/数组奇偶划分不改变次序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/数组实现并查集.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/数组实现并查集.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/数组最大连续子序列的和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/数组最大连续子序列的和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/数组最长前缀.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/数组最长前缀.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/无空间交换数据.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/无空间交换数据.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/机器人的运动范围.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/机器人的运动范围.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/消消乐.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/消消乐.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/矩阵中的路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/矩阵中的路径.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/荷兰旗问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/荷兰旗问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/调整数组顺序使奇数位于偶数前面.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/调整数组顺序使奇数位于偶数前面.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/数组/转圈打印矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/转圈打印矩阵.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/栈列/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/栈列/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/栈列/仅用两个栈实现队列结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/栈列/仅用两个栈实现队列结构.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/栈列/仅用队列结构实现栈结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/栈列/仅用队列结构实现栈结构.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/栈列/数组结构实现大小固定的栈.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/栈列/数组结构实现大小固定的栈.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/栈列/数组结构实现大小固定的队列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/栈列/数组结构实现大小固定的队列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/栈列/栈的压入和弹出序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/栈列/栈的压入和弹出序列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/栈列/猫狗队列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/栈列/猫狗队列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/栈列/返回列中最大元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/栈列/返回列中最大元素.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/栈列/返回栈中最小元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/栈列/返回栈中最小元素.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/HFMTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/HFMTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/二叉搜索树转换为双向链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/二叉搜索树转换为双向链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/二叉树中找到一个节点的后继节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/二叉树中找到一个节点的后继节点.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/二叉树公司最大的活跃度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/二叉树公司最大的活跃度.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/判断是否为满二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/判断是否为满二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/判断是否是完全二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/判断是否是完全二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/判断是否是平衡树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/判断是否是平衡树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/判断是否是搜索二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/判断是否是搜索二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/找出二叉树子树中的最大搜索二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/找出二叉树子树中的最大搜索二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/搜索二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/搜索二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/树的moris遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/树的moris遍历.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/树的序列化递归版本.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/树的序列化递归版本.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/树的序列化非递归按层次版本.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/树的序列化非递归按层次版本.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/树的按层次遍历BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/树的按层次遍历BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/树的按深度遍历DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/树的按深度遍历DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/树的递归遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/树的递归遍历.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/树的非递归遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/树的非递归遍历.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/求完全二叉树的节点个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/求完全二叉树的节点个数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树/纸的折叠打印.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树/纸的折叠打印.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/树状数组/FenwickTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/树状数组/FenwickTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/测试/IntegerAndString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/测试/IntegerAndString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/测试/MapOrDefaultTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/测试/MapOrDefaultTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/测试/adad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/测试/adad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/测试/final特性测试.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/测试/final特性测试.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/测试/newList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/测试/newList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/测试/str.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/测试/str.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/测试/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/测试/testmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/测试/testmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/测试/testnode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/测试/字符串的split.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/测试/字符串的split.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/测试/字符转int.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/测试/字符转int.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/贪心/字符串的按字典顺序拼接.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/贪心/字符串的按字典顺序拼接.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/贪心/宣讲场次安排.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/贪心/宣讲场次安排.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/贪心/花费的最大钱数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/贪心/花费的最大钱数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/贪心/金条切两半花费铜板问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/贪心/金条切两半花费铜板问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/跳表/SkipList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/跳表/SkipList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/递归/三目运算符的特性.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/递归/三目运算符的特性.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/递归/打印一个字符串的全部排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/递归/打印一个字符串的全部排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/递归/递归_母牛问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/递归/递归_母牛问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/递归/递归_求小和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/递归/递归_求小和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/递归/递归_求小和别人的代码测试.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/递归/递归_求小和别人的代码测试.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/递归/递归实现逆序栈.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/递归/递归实现逆序栈.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/递归/递归打印一个字符串的全部子序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/递归/递归打印一个字符串的全部子序列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/递归/递归打印一个字符串的序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/递归/递归打印一个字符串的序列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/递归/递归求最大值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/递归/递归求最大值.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/递归/递归求阶乘.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/递归/递归求阶乘.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/递归/递归汉诺塔.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/递归/递归汉诺塔.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/链表/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/链表/LinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/链表/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/链表/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/链表/RandNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/链表/RandNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/链表/SEB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/链表/SEB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/链表/两个单链表相交的一系列问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/链表/两个单链表相交的一系列问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/链表/两个链表的第一个公共节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/链表/两个链表的第一个公共节点.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/链表/判断一个链表是否为回文结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/链表/判断一个链表是否为回文结构.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/链表/单向链表左边小中间相等右边大.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/链表/单向链表左边小中间相等右边大.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/链表/反转单向链表和反转双向链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/链表/反转单向链表和反转双向链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/链表/合并两个有序链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/链表/合并两个有序链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/链表/复制含有随机指针结点的链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/链表/复制含有随机指针结点的链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/链表/打印两个有序链表的公共部分.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/链表/打印两个有序链表的公共部分.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/链表/链表中环的入口结点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/链表/链表中环的入口结点.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/集合/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/集合/UnionFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/高级算法/BloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/高级算法/BloomFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/高级算法/ConsistencyHashCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/高级算法/ConsistencyHashCluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/高级算法/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/高级算法/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pu/高级算法/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/高级算法/RBTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tools/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tools/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tools/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tools/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tools/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/剑指Offer/_05用两个栈实现队列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/剑指Offer/_05用两个栈实现队列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/剑指Offer/_13链表中倒数第k个结点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/剑指Offer/_13链表中倒数第k个结点.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/剑指Offer/_14反转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/剑指Offer/_14反转链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/剑指Offer/_15合并两个排序的链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/剑指Offer/_15合并两个排序的链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/剑指Offer/_16树的子结构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/剑指Offer/_16树的子结构.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/剑指Offer/_21从上往下打印二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/剑指Offer/_21从上往下打印二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/剑指Offer/_23二叉树中和为某一值的路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/剑指Offer/_23二叉树中和为某一值的路径.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/剑指Offer/_24复杂链表的复制.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/剑指Offer/_24复杂链表的复制.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/剑指Offer/_28最小的k个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/剑指Offer/_28最小的k个数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/剑指Offer/_30整数中1出现的次数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/剑指Offer/_30整数中1出现的次数.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +255,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/test.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/LeetCode/_08买卖股票的最佳时机.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
-              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="990">
+              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
               <folding>
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/分类题型/树/_109有序链表转换二叉搜索树.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/LeetCode/_08岛屿问题.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/LeetCode/_05数组的删除重复和移除元素.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40612">
+              <caret line="1905" column="4" selection-start-line="1905" selection-start-column="4" selection-end-line="1922" selection-end-column="5" />
+              <folding>
+                <element signature="e#88329#88330#0" expanded="true" />
+                <element signature="e#88386#88387#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,20 +326,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
-    <findStrings>
-      <find>val</find>
-      <find>child</find>
-      <find>arr</find>
-    </findStrings>
     <replaceStrings>
       <replace />
-      <replace>value</replace>
-      <replace>left</replace>
-      <replace>help</replace>
     </replaceStrings>
-    <dirStrings>
-      <dir>D:\IdeaProjects\myAlgorithm\src\com</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,6 +336,33 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/pu/测试/testnode.java" />
+        <option value="$PROJECT_DIR$/src/com/pu/测试/test.java" />
+        <option value="$PROJECT_DIR$/src/com/LeetCode/_05数组的删除重复和移除元素.java" />
+        <option value="$PROJECT_DIR$/src/com/LeetCode/_06二叉树寻路.java" />
+        <option value="$PROJECT_DIR$/src/com/LeetCode/_07二分查找.java" />
+        <option value="$PROJECT_DIR$/src/com/pu/排序/排序_冒泡排序.java" />
+        <option value="$PROJECT_DIR$/src/com/tools/MyArrays.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指Offer/_06旋转数组的最小数字.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指Offer/_07斐波拉契和跳台阶.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指Offer/_10二进制中1的个数.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指Offer/_11数值的整数次方.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/pu/栈列/返回列中最大元素.java" />
+        <option value="$PROJECT_DIR$/src/com/tools/Print.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指Offer/_13链表中倒数第k个结点.java" />
+        <option value="$PROJECT_DIR$/src/com/pu/测试/adad.java" />
+        <option value="$PROJECT_DIR$/src/com/pu/数字/进制转换/求N阶乘末尾0的个数.java" />
+        <option value="$PROJECT_DIR$/src/com/pu/数字/进制转换/求数二进制末尾0的个数.java" />
+        <option value="$PROJECT_DIR$/src/com/pu/数字/进制转换/为求一个数的二进制表示中最右边1所对应的值.java" />
+        <option value="$PROJECT_DIR$/src/com/pu/树状数组/树状数组模板.java" />
+        <option value="$PROJECT_DIR$/src/com/pu/树状数组/FenwickTree.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指Offer/_12调整数组顺序使奇数位于偶数前面.java" />
+        <option value="$PROJECT_DIR$/src/com/tools/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指Offer/_14反转链表.java" />
+        <option value="$PROJECT_DIR$/src/com/LeetCode/_03有序链表的合并.java" />
+        <option value="$PROJECT_DIR$/src/com/pu/链表/合并两个有序链表.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指Offer/_15合并两个排序的链表.java" />
         <option value="$PROJECT_DIR$/src/com/pu/数组/消消乐.java" />
         <option value="$PROJECT_DIR$/src/com/pu/树/树的按深度遍历DFS.java" />
         <option value="$PROJECT_DIR$/src/com/剑指Offer/_16树的子结构.java" />
@@ -87,41 +386,15 @@
         <option value="$PROJECT_DIR$/src/com/LeetCode/_08岛屿问题.java" />
         <option value="$PROJECT_DIR$/src/com/LeetCode/_08买卖股票的最佳时机.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/_04动态规划的总结.md" />
-        <option value="$PROJECT_DIR$/_01优先级队列PriorityQueue.md" />
-        <option value="$PROJECT_DIR$/_03各种排序算法的总结.md" />
-        <option value="$PROJECT_DIR$/src/com/pu/动态规划/凑零钱问题.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_03从尾到头打印链表.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_05用两个栈实现队列.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_10二进制中1的个数.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_11数值的整数次方.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_12调整数组顺序使奇数位于偶数前面.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_14反转链表.java" />
-        <option value="$PROJECT_DIR$/src/com/pu/高级算法/LRUCache.java" />
-        <option value="$PROJECT_DIR$/src/com/pu/高级算法/BloomFilter.java" />
-        <option value="$PROJECT_DIR$/src/com/pu/高级算法/ConsistencyHashCluster.java" />
-        <option value="$PROJECT_DIR$/src/com/pu/高级算法/RBTree.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_23二叉树中和为某一值的路径.java" />
-        <option value="$PROJECT_DIR$/src/com/pu/排序/排序_归并排序.java" />
-        <option value="$PROJECT_DIR$/src/com/pu/栈列/返回列中最大元素.java" />
-        <option value="$PROJECT_DIR$/src/com/pu/链表/复制含有随机指针结点的链表.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_24复杂链表的复制.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_25二叉搜索树与双向链表.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_26字符串的排列.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_27数组中出现次数超过一半的数字.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_28最小的k个数.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_29连续子数组的最大和.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_30整数中1出现的次数.java" />
-        <option value="$PROJECT_DIR$/src/com/pu/树/判断是否是平衡树.java" />
-        <option value="$PROJECT_DIR$/src/com/test.java" />
+        <option value="$PROJECT_DIR$/src/com/分类题型/树/_109有序链表转换二叉搜索树.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="675" />
-    <option name="width" value="700" />
-    <option name="height" value="780" />
+    <option name="x" value="670" />
+    <option name="y" value="-10" />
+    <option name="width" value="705" />
+    <option name="height" value="790" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -157,14 +430,14 @@
               <item name="myAlgorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pu" type="462c0819:PsiDirectoryNode" />
+              <item name="分类题型" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myAlgorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="myAlgorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pu" type="462c0819:PsiDirectoryNode" />
+              <item name="分类题型" type="462c0819:PsiDirectoryNode" />
               <item name="树" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -173,14 +446,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="剑指Offer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myAlgorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="剑指Offer" type="462c0819:PsiDirectoryNode" />
-              <item name="_29连续子数组的最大和.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -191,7 +456,6 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -201,7 +465,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -220,13 +484,182 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application._109有序链表转换二叉搜索树">
+    <configuration name="二分查找问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.二分查找问题" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapOrDefaultTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.测试.MapOrDefaultTest" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.测试.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="判断是否是平衡树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pu.树.判断是否是平衡树" />
       <module name="myAlgorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pu.树.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="矩阵中的路径" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.矩阵中的路径" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="打印字符串的所有排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.字符串.打印字符串的所有排列" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.字符串.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="正则表达式匹配" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.动态规划.正则表达式匹配" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.动态规划.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="链表荷兰旗问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.链表.链表荷兰旗问题" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.链表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数组中出现次数超过一半的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组中出现次数超过一半的数字" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数字是否是回文的" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数字.数字是否是回文的" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数字.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="树的序列化非递归按层次版本" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.树.树的序列化非递归按层次版本" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.树.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="判断是否是搜索二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.树.判断是否是搜索二叉树" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.树.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="链表中环的入口结点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.链表.链表中环的入口结点" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.链表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数组最大连续子序列的和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组最大连续子序列的和" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数组最长前缀" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组最长前缀" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,21 +693,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="水花仙数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数字.水花仙数" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.数字.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="求完全二叉树的节点个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.树.求完全二叉树的节点个数" />
+    <configuration name="二叉树公司最大的活跃度" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.树.二叉树公司最大的活跃度" />
       <module name="myAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -286,8 +706,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="判断是否是搜索二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.树.判断是否是搜索二叉树" />
+    <configuration name="数组中寻找三数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组中寻找三数之和" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="金条切两半花费铜板问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.优先级队列_堆实现.金条切两半花费铜板问题" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.优先级队列_堆实现.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="判断是否是平衡树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.树.判断是否是平衡树" />
       <module name="myAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -296,7 +742,20 @@
         </pattern>
       </extension>
       <method v="2">
-        <option name="MakeNoErrorCheck" enabled="true" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数组数字无限次使用匹配数字的次数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.动态规划.数组数字无限次使用匹配数字的次数" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.动态规划.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="合并两个有序链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -305,19 +764,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pu.链表.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="数组中只出现一次的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组中只出现一次的数字" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -351,216 +797,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="花费的最大钱数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.优先级队列_堆实现.花费的最大钱数" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.优先级队列_堆实现.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="数组中出现次数超过一半的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组中出现次数超过一半的数字" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="消消乐" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.消消乐" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="两个链表的第一个公共节点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.链表.两个链表的第一个公共节点" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.链表.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="矩阵中的路径" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.矩阵中的路径" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="凑零钱问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.动态规划.凑零钱问题" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.动态规划.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="滑动窗口最大值" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.滑动窗口最大值" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="正则表达式匹配" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.动态规划.正则表达式匹配" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.动态规划.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="数组中只出现一次的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组中只出现一次的数字" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.单调栈.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="树的序列化递归版本" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.树.树的序列化递归版本" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.树.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="随时找到数据流中的中位数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.优先级队列_堆实现.随时找到数据流中的中位数" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.优先级队列_堆实现.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="树的序列化非递归按层次版本" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.树.树的序列化非递归按层次版本" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.树.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="数组数字无限次使用匹配数字的次数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.动态规划.数组数字无限次使用匹配数字的次数" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.动态规划.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="调整数组顺序使奇数位于偶数前面" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.调整数组顺序使奇数位于偶数前面" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="串的相同前后缀应用" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.字符串.串的相同前后缀应用" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.字符串.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="打印字符串的所有排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.字符串.打印字符串的所有排列" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.字符串.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="寻找两个有序数组的中位数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.寻找两个有序数组的中位数" />
       <module name="myAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -585,12 +823,220 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="水花仙数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数字.水花仙数" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数字.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="花费的最大钱数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.优先级队列_堆实现.花费的最大钱数" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.优先级队列_堆实现.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="荷兰旗问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.荷兰旗问题" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="求完全二叉树的节点个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.树.求完全二叉树的节点个数" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.前缀树.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="滑动窗口最大值" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.滑动窗口最大值" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数组中只出现一次的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组中只出现一次的数字" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.单调栈.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="前缀树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pu.前缀树.前缀树" />
       <module name="myAlgorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pu.前缀树.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="正则表达式匹配" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.动态规划.正则表达式匹配" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.动态规划.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="消消乐" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.消消乐" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="树的序列化递归版本" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.树.树的序列化递归版本" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.树.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="调整数组顺序使奇数位于偶数前面" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.调整数组顺序使奇数位于偶数前面" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="两个链表的第一个公共节点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.链表.两个链表的第一个公共节点" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.链表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="最长回文子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.字符串.最长回文子串" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.字符串.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="串的相同前后缀应用" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.字符串.串的相同前后缀应用" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.字符串.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="随时找到数据流中的中位数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.优先级队列_堆实现.随时找到数据流中的中位数" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.优先级队列_堆实现.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="寻找两个有序数组的中位数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.寻找两个有序数组的中位数" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数组中只出现一次的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组中只出现一次的数字" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -650,86 +1096,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="金条切两半花费铜板问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.优先级队列_堆实现.金条切两半花费铜板问题" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.优先级队列_堆实现.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="正则表达式匹配" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.动态规划.正则表达式匹配" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.动态规划.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="荷兰旗问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.荷兰旗问题" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="链表荷兰旗问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.链表.链表荷兰旗问题" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.链表.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="数组中寻找三数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组中寻找三数之和" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="数字是否是回文的" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数字.数字是否是回文的" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.数字.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="数组最大连续子序列的和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组最大连续子序列的和" />
+    <configuration name="消消乐" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.消消乐" />
       <module name="myAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -754,12 +1122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="最长回文子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.字符串.最长回文子串" />
+    <configuration name="_08岛屿问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LeetCode._08岛屿问题" />
       <module name="myAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pu.字符串.*" />
+          <option name="PATTERN" value="com.LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -767,12 +1135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="数组最长前缀" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组最长前缀" />
+    <configuration name="_109有序链表转换二叉搜索树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.分类题型.树._109有序链表转换二叉搜索树" />
       <module name="myAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="PATTERN" value="com.分类题型.树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -780,51 +1148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="排序_快速排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.排序.排序_快速排序" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_29连续子数组的最大和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.剑指Offer._29连续子数组的最大和" />
+    <configuration name="_22二叉搜索树的后序遍历序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.剑指Offer._22二叉搜索树的后序遍历序列" />
       <module name="myAlgorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.剑指Offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_30整数中1出现的次数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.剑指Offer._30整数中1出现的次数" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.剑指Offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -834,11 +1163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.判断是否是平衡树" />
-        <item itemvalue="Application._30整数中1出现的次数" />
-        <item itemvalue="Application.排序_快速排序" />
-        <item itemvalue="Application._29连续子数组的最大和" />
+        <item itemvalue="Application._109有序链表转换二叉搜索树" />
+        <item itemvalue="Application._08岛屿问题" />
+        <item itemvalue="Application.MapOrDefaultTest" />
+        <item itemvalue="Application.二分查找问题" />
+        <item itemvalue="Application._22二叉搜索树的后序遍历序列" />
       </list>
     </recent_temporary>
   </component>
@@ -914,22 +1243,64 @@
       <workItem from="1584158209107" duration="3595000" />
       <workItem from="1584246887355" duration="3971000" />
       <workItem from="1584258869046" duration="125000" />
-      <workItem from="1584259046308" duration="860000" />
-      <workItem from="1584330918409" duration="35000" />
-      <workItem from="1584932035438" duration="2597000" />
-      <workItem from="1586359796267" duration="2797000" />
-      <workItem from="1586413097260" duration="9792000" />
-      <workItem from="1586621988279" duration="1751000" />
-      <workItem from="1586777695133" duration="1817000" />
-      <workItem from="1586835474074" duration="893000" />
-      <workItem from="1587037895973" duration="3625000" />
-      <workItem from="1587312227956" duration="1621000" />
-      <workItem from="1587377488073" duration="12037000" />
-      <workItem from="1587459611844" duration="14055000" />
-      <workItem from="1587971859763" duration="1149000" />
-      <workItem from="1587992787127" duration="4645000" />
-      <workItem from="1588263146748" duration="235000" />
-      <workItem from="1589459849293" duration="3199000" />
+      <workItem from="1584259046308" duration="279000" />
+      <workItem from="1590398788709" duration="581000" />
+    </task>
+    <task id="LOCAL-00013" summary="数组中出现次数超过一半的数字">
+      <created>1576810442209</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576810442209</updated>
+    </task>
+    <task id="LOCAL-00014" summary="连续子数组的最大和">
+      <created>1577173520200</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1577173520200</updated>
+    </task>
+    <task id="LOCAL-00015" summary="数字的1-n整数中1出现的次数">
+      <created>1577623899040</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1577623899040</updated>
+    </task>
+    <task id="LOCAL-00016" summary="二进制中1的个数&#10;两个解法">
+      <created>1578015383426</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1578015383426</updated>
+    </task>
+    <task id="LOCAL-00017" summary="二进制中1的个数&#10;两个解法&#10;更新自己的解法">
+      <created>1578021581626</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578021581626</updated>
+    </task>
+    <task id="LOCAL-00018" summary="调整数组顺序使奇数位于偶数前两种方法">
+      <created>1578061569283</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578061569283</updated>
+    </task>
+    <task id="LOCAL-00019" summary="java内部排序原理">
+      <created>1578649255722</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1578649255722</updated>
+    </task>
+    <task id="LOCAL-00020" summary="丑数">
+      <created>1579753176493</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1579753176493</updated>
     </task>
     <task id="LOCAL-00021" summary="链表的公共节点">
       <created>1579756033458</created>
@@ -1218,67 +1589,11 @@
       <option name="project" value="LOCAL" />
       <updated>1584259175370</updated>
     </task>
-    <task id="LOCAL-00062" summary="leetcode 岛屿问题">
-      <created>1584259432369</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1584259432370</updated>
-    </task>
-    <task id="LOCAL-00063" summary="动态规划问题总结">
-      <created>1584933062874</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1584933062875</updated>
-    </task>
-    <task id="LOCAL-00064" summary="动态规划_凑零钱问题">
-      <created>1584934785357</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1584934785357</updated>
-    </task>
-    <task id="LOCAL-00065" summary="动态规划_凑零钱问题">
-      <created>1587313599468</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1587313599468</updated>
-    </task>
-    <task id="LOCAL-00066" summary="字符串的排列&amp;&amp;二叉树和双向链表的转换">
-      <created>1587398290138</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1587398290139</updated>
-    </task>
-    <task id="LOCAL-00067" summary="找出数组中出现次数大于数组长度一半的值">
-      <created>1587460538275</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1587460538279</updated>
-    </task>
-    <task id="LOCAL-00068" summary="topk &amp;&amp; 子数组最大和">
-      <created>1587482583851</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1587482583851</updated>
-    </task>
-    <task id="LOCAL-00069" summary="1出现的个数">
-      <created>1588001797567</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1588001797567</updated>
-    </task>
-    <option name="localTasksCounter" value="70" />
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="378250000" />
+    <option name="totallyTimeSpent" value="317989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1290,9 +1605,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1107" height="629" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497006" weight="0.13250715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497006" visible="true" weight="0.1930295" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1358,8 +1674,12 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="moris遍历求解" />
+    <MESSAGE value="多叉树————公司最大的活跃度" />
+    <MESSAGE value="跟修前缀树的相关知识" />
+    <MESSAGE value="剑值offer 01" />
+    <MESSAGE value="leetcode 数组 几数之和的问题" />
+    <MESSAGE value="剑值offer 02 替换空格 replace方法&#10;String 和 Stringbuffer StringBuilder区别" />
     <MESSAGE value=" * description：字符串的组合，数组间元素的组合问题&#10; * 思想：利用树的发散结构完成（递归 回溯剪枝法）" />
     <MESSAGE value="剑值offer _03从头到尾打印链表" />
     <MESSAGE value="题目1：合并两个有序链表  //简单&#10; * 题目2：合并K个有序链表     //采用归并的手段简化&#10; * 合并 k 个排序链表，返回合并后的排序链表。请分析和描述算法的复杂度。" />
@@ -1379,416 +1699,310 @@
     <MESSAGE value="02 复习栈列的最值" />
     <MESSAGE value="二叉树后续遍历结构和bfs" />
     <MESSAGE value="leetcode 岛屿问题" />
-    <MESSAGE value="动态规划问题总结" />
-    <MESSAGE value="动态规划_凑零钱问题" />
-    <MESSAGE value="字符串的排列&amp;&amp;二叉树和双向链表的转换" />
-    <MESSAGE value="找出数组中出现次数大于数组长度一半的值" />
-    <MESSAGE value="topk &amp;&amp; 子数组最大和" />
-    <MESSAGE value="1出现的个数" />
-    <option name="LAST_COMMIT_MESSAGE" value="1出现的个数" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java</url>
-          <line>417</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode 岛屿问题" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/pu/图/DFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/图/BFS.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pu/优先级队列_堆实现/花费的最大钱数.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/pu/数组/转圈打印矩阵.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/LeetCode/_02字符串的组合问题.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="462">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/图/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_05用两个栈实现队列.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="1" selection-start-line="5" selection-start-column="7" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="748">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/图/Edge.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_19包含min函数的栈.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="814">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/图/GraphGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="27" selection-end-column="1" />
+    <entry file="file://$PROJECT_DIR$/src/com/pu/栈列/返回列中最大元素.java" />
+    <entry file="file://$PROJECT_DIR$/_02队列和栈的maxmin.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1056">
+            <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/图/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pu/优先级队列_堆实现/金条切两半花费铜板问题.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/pu/排序/排序_计数排序.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_20栈的弹出序列.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="22">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/树状数组/FenwickTree.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_01二维数组中的查找.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="103">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_121/src.zip!/java/util/SortedMap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_02替换空格.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4048">
-          <caret line="207" column="19" selection-start-line="207" selection-start-column="19" selection-end-line="207" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/图/图的遍历.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/排序/排序_冒泡排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/排序/排序_插入排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/排序/排序_选择排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-239">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/排序/计数排序的升级面试题.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/排序/java的内部排序实现.readme">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/排序/排序_归并排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-349">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/栈列/返回栈中最小元素.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-239">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/栈列/返回列中最大元素.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/栈列/仅用两个栈实现队列结构.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-767">
+        <state relative-caret-position="-503">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/栈列/栈的压入和弹出序列.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_03从尾到头打印链表.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
+        <state relative-caret-position="-635">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_04重建二叉树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/树/树的递归遍历.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_06旋转数组的最小数字.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
+        <state relative-caret-position="-239">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_201/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="1444" column="25" lean-forward="true" selection-start-line="1444" selection-start-column="25" selection-end-line="1444" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_10二进制中1的个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_11数值的整数次方.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_12调整数组顺序使奇数位于偶数前面.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-865">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_13链表中倒数第k个结点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-359">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_14反转链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_15合并两个排序的链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_16树的子结构.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_18顺时针打印矩阵.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tools/MinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1342">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tools/MaxHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-814">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tools/MyArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tools/Node.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/tools/Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tools/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-631">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/链表/两个单链表相交的一系列问题.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tools/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2486">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="-352">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/链表/两个链表的第一个公共节点.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/链表/单向链表左边小中间相等右边大.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/链表/反转单向链表和反转双向链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/链表/合并两个有序链表.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tools/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/链表/复制含有随机指针结点的链表.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tools/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/数组/子数组之和为aim的最大长度.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_17二叉树的镜像.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="113">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_24复杂链表的复制.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_21从上往下打印二叉树.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+        <state relative-caret-position="110">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_25二叉搜索树与双向链表.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_22二叉搜索树的后序遍历序列.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2068">
-          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+        <state relative-caret-position="396">
+          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/数组/子数组异或核之和的最大值.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pu/数组/在数组中找到一个局部最小的位置.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/pu/数组/数组最大连续子序列的和.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/pu/测试/MapOrDefaultTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/pu/数组/消消乐.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/pu/数组/机器人的运动范围.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/pu/数组/岛问题.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/pu/数组/二分查找问题.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/pu/链表/反转单向链表和反转双向链表.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/LeetCode/_08买卖股票的最佳时机.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="990">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/数组/在数组中找到一个局部最小的位置.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/链表/打印两个有序链表的公共部分.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_26字符串的排列.java">
+    <entry file="file://$PROJECT_DIR$/src/com/LeetCode/_08岛屿问题.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/LeetCode/_05数组的删除重复和移除元素.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40612">
+          <caret line="1905" column="4" selection-start-line="1905" selection-start-column="4" selection-end-line="1922" selection-end-column="5" />
+          <folding>
+            <element signature="e#88329#88330#0" expanded="true" />
+            <element signature="e#88386#88387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/分类题型/树/_109有序链表转换二叉搜索树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_27数组中出现次数超过一半的数字.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_28最小的k个数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3036">
-          <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
-          <folding>
-            <element signature="e#6252#6253#0" expanded="true" />
-            <element signature="e#6320#6321#0" expanded="true" />
-            <element signature="e#15414#15415#0" expanded="true" />
-            <element signature="e#15459#15460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/高级算法/BloomFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/高级算法/ConsistencyHashCluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/高级算法/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_29连续子数组的最大和.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_30整数中1出现的次数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/数字/从1到n整数中1出现的次数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/高级算法/RBTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/排序/排序_快速排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_121/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81994">
-          <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
-          <folding>
-            <element signature="e#177013#177014#0" expanded="true" />
-            <element signature="e#177054#177055#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_121/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1914">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/排序/排序_堆排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="76" column="58" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/数组/子数组中奇数偶数相同的最大长度.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/链表/链表中环的入口结点.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="72" column="45" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pu/树/判断是否是平衡树.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="158" column="36" selection-start-line="158" selection-start-column="36" selection-end-line="158" selection-end-column="36" />
-          <folding>
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#3238#3239#0" expanded="true" />
-            <element signature="e#3286#3287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1832,7 +2046,6 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

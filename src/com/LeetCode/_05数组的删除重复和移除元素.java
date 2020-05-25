@@ -1,6 +1,6 @@
 package com.LeetCode;
 
-import com.tools.Node;
+import com.tools.ListNode;
 import com.tools.Print;
 
 import java.io.PrintWriter;
@@ -44,13 +44,13 @@ public class _05数组的删除重复和移除元素 {
         System.out.println(removeElementV2(nums3, 4));
         Print.printArray(nums3);
 
-        Node head = new Node(1);
-        head.next = new Node(2);
-        head.next.next = new Node(3);
-        head.next.next.next = new Node(4);
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(3);
+        head.next.next.next = new ListNode(4);
         Print.printNode(head);
 
-        Node n1 = removeElements(head,3);
+        ListNode n1 = removeElements(head,3);
         Print.printNode(n1);
 
         int[] nums4 = {1,1,1,1,1,2,2,3,4,4,4,5};
@@ -111,11 +111,11 @@ public class _05数组的删除重复和移除元素 {
         return L;
     }
 
-    public static Node removeElements(Node head, int val){
-        Node newNode = new Node(-1);
-        newNode.next = head;
-        Node pre = newNode;
-        Node cur = head;
+    public static ListNode removeElements(ListNode head, int val){
+        ListNode newListNode = new ListNode(-1);
+        newListNode.next = head;
+        ListNode pre = newListNode;
+        ListNode cur = head;
         while(cur != null){
             if(cur.val == val){
                 pre.next = cur.next;
@@ -124,7 +124,7 @@ public class _05数组的删除重复和移除元素 {
             }
             cur = cur.next;
         }
-        return newNode.next;
+        return newListNode.next;
     }
 
 

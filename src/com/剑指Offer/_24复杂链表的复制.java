@@ -16,7 +16,7 @@ public class _24复杂链表的复制 {
         third.random = second;
 
         print(pHead);
-        print(new RandomListNodeClone().Clone(pHead));
+        print(new RandomListNodeClone().method(pHead));
     }
 
     private static void print(RandomListNode pHead) {
@@ -65,5 +65,33 @@ class RandomListNodeClone {
             cur = cur.next;
         }
         return map.get(pHead);
+    }
+    public RandomListNode method(RandomListNode pHead) {
+        if (pHead == null) {
+            return null;
+        }
+        RandomListNode cur = pHead;
+        RandomListNode next;
+        while (cur != null) {
+            next = cur.next;
+            cur.next = new RandomListNode(cur.label);
+            cur.next.next = next;
+            cur = next;
+        }
+        cur = pHead;
+        while (cur != null) {
+            cur.next.random = cur.random == null ? null : cur.random.next;
+            cur = cur.next.next;
+        }
+        cur = pHead;
+        RandomListNode root = cur.next;
+        while (cur != null) {
+            next = cur.next;
+            cur.next = next.next;
+            next.next = cur.next == null ? null : cur.next.next;
+            cur = cur.next;
+
+        }
+        return root;
     }
 }
