@@ -2,6 +2,8 @@ package com.分类题型.动态规划;
 
 import com.tools.Print;
 
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Scanner;
 
 /**
