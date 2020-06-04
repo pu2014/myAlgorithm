@@ -24,14 +24,21 @@ public class ListNode {
         return head.next;
     }
 
-    public static ListNode createListNode(int[] obs){
-        ListNode head = new ListNode(obs[0]);
+    public static ListNode createListNode(int[] nums){
+        ListNode head = new ListNode(nums[0]);
         ListNode cur = head;
-        for(int i = 1; i < obs.length; i++){
-            cur.next = new ListNode(obs[i]);
-            cur = cur.next;
+        for(int i = 1; i < nums.length; i++){
+            head.next = new ListNode(nums[i]);
+            head = head.next;
         }
-        return head;
+        return cur;
     }
 
+    @Override
+    public String toString() {
+        return "ListNode{" +
+                "val=" + val +
+                ", next=" + next +
+                '}';
+    }
 }
