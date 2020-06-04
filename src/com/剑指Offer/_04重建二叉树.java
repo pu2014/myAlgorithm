@@ -23,24 +23,34 @@ public class _04重建二叉树 {
         }
      }
     public static void main(String[] args) {
-        int[] pre = {1,2,4,7,3,5,6,8};
-        int[] in = {4,7,2,1,5,3,8,6};
+        int[] pre = {1,2,3};
+        int[] in = {3,2,1};
         TreeNode head = reConstructBinaryTree(pre, in);
         print(head);
     }
-    public static TreeNode reConstructBinaryTree(int [] pre,int [] in){
-        if(pre.length == 0 || in.length == 0){
+    public static TreeNode reConstructBinaryTree(int [] preorder,int [] inorder){
+        if(preorder.length == 0 || inorder.length == 0){
             return null;
         }
-        TreeNode parent = new TreeNode(pre[0]);
-        for(int i = 0; i < in.length; i++){
-            if(pre[0] == in[i]){
-                parent.left = reConstructBinaryTree(Arrays.copyOfRange(pre, 1, i + 1), Arrays.copyOfRange(in, 0, i));
-                parent.right = reConstructBinaryTree(Arrays.copyOfRange(pre, i + 1, pre.length), Arrays.copyOfRange(in, i + 1, in.length));
+        return process(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1);
+    }
+    public static TreeNode process(int[] preorder, int pl, int pr, int[] inorder, int il, int ir){
+        if(pl > pr || il > ir){
+            return null;
+        }
+        if(pl == pr && il == ir){
+            return new TreeNode(preorder[pl]);
+        }
+        TreeNode head = new TreeNode(preorder[pl]);
+        int i = 0;
+        for(;i <= ir - il; i++){
+            if(preorder[pl] == inorder[i + il]){
+                head.left = process(preorder, pl + 1, pl + i, inorder, il, il + i - 1);
+                head.right = process(preorder, pl + i + 1, pr, inorder,il + i + 1, ir);
                 break;
             }
         }
-        return parent;
+        return head;
     }
     public static void print(TreeNode head){
         if(head == null){
