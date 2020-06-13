@@ -1,6 +1,7 @@
 package com.分类题型.链表;
 
 import com.tools.ListNode;
+import com.tools.Print;
 
 /**
  * @DESC 给定一个单链表 L：L0→L1→…→Ln-1→Ln ，
@@ -27,6 +28,9 @@ public class _143重排链表 {
         head.next.next = new ListNode(3);
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
+        ReorderList proc = new ReorderList();
+        proc.reorder(head);
+        Print.printNode(head);
     }
 }
 class ReorderList {
