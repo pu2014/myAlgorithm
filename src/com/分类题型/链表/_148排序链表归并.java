@@ -14,11 +14,11 @@ public class _148排序链表归并 {
         head.next.next = new ListNode(3);
         head.next.next.next = new ListNode(6);
         head.next.next.next.next = new ListNode(4);
-        SortList proc = new SortList();
+        MergeSortList proc = new MergeSortList();
         Print.printNode(proc.sortList(head));
     }
 }
-class SortList {
+class MergeSortList {
     public ListNode sortList(ListNode head) {
         return mergeSort(head);
     }
