@@ -1,4 +1,4 @@
-package com.分类题型.动态规划;
+package com.分类题型.动态规划.凑零钱;
 
 import java.util.Arrays;
 
