@@ -53,6 +53,7 @@ class LengthOfLIS {
 
     /**
      * 优化: 减少复杂度到 NLogN
+     * 思路： 主要是
      * @param nums
      * @return
      */
@@ -63,7 +64,6 @@ class LengthOfLIS {
         int[] dp = new int[nums.length];
         dp[0] = nums[0];
         int end = 0;
-        int max = 0;
         for(int i = 1; i < nums.length; i++){
             if(nums[i] > dp[end]){
                 dp[++end] = nums[i];
