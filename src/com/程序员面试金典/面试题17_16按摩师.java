@@ -39,12 +39,8 @@ public class 面试题17_16按摩师 {
             if(len == 2){
                 return dp[1];
             }
-            dp[2] = Math.max(nums[0] + nums[2], dp[1]);
-            if(len == 3){
-                return dp[2];
-            }
-            for(int i = 3; i < len; i++){
-                dp[i] = Math.max(dp[i - 3] + nums[i], Math.max(dp[i - 2] + nums[i], dp[i - 1]));
+            for(int i = 2; i < len; i++){
+                dp[i] = Math.max(dp[i - 2] + nums[i], dp[i - 1]);
             }
             return dp[len - 1];
         }
