@@ -1,6 +1,9 @@
 package com.剑指Offer;
 
+import com.tools.Print;
+
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -14,15 +17,16 @@ import java.util.Scanner;
  */
 public class _55滑动窗口的最大值 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        /*Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         int M = sc.nextInt();
-        int[] nums = new int[N];
+        int[] nums = new int[N];*/
         MaxInWindows proc = new MaxInWindows();
-        for(int i = 0; i < N; i++){
+        /*for(int i = 0; i < N; i++){
             nums[i] = sc.nextInt();
         }
-        System.out.println(proc.fun(nums, M));
+        System.out.println(proc.fun(nums, M));*/
+        Print.printArray(proc.maxSlidingWindow(new int[]{1,3,1,2,0,5}, 3));
     }
 }
 class MaxInWindows {
@@ -45,6 +49,35 @@ class MaxInWindows {
             }
             deque.addLast(i);
             res.add(nums[deque.peekFirst()]);
+        }
+        return res;
+    }
+
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        if(nums == null || nums.length == 0 || k > nums.length){
+            return nums;
+        }
+        int[] res = new int[nums.length - k + 1];
+        Deque<Integer> deque = new LinkedList<Integer>();
+        for(int i = 0; i < k - 1; i++){
+            while(!deque.isEmpty() && deque.peekLast() < nums[i]){
+                deque.pollFirst();
+            }
+            while(deque.size() != k - 1){
+                deque.addLast(nums[i]);
+            }
+        }
+        for(int i = k - 1; i < nums.length; i++){
+            if(deque.size() == k){
+                deque.pollFirst();
+            }
+            while(!deque.isEmpty() && deque.peekLast() < nums[i]){
+                deque.pollFirst();
+            }
+            while(deque.size() != k){
+                deque.addLast(nums[i]);
+            }
+            res[i - k + 1] = deque.peekFirst();
         }
         return res;
     }
