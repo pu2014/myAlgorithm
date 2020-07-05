@@ -1,5 +1,6 @@
 package com.剑指Offer;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -43,5 +44,22 @@ class PrintMinNumber {
             res += num;
         }
         return res;
+    }
+
+    public String minNumber(int[] nums) {
+        //字典序排序
+        if(nums.length == 0){
+            return "";
+        }
+        StringBuilder[] strs = new StringBuilder[nums.length];
+        for(int i = 0; i < nums.length; i++){
+            strs[i] = new StringBuilder(nums[i]);
+        }
+        StringBuilder sb = new StringBuilder();
+        Arrays.sort(strs, (o1,o2)->(o1.append(o2)).toString().compareTo(o2.append(o1).toString()));
+        for(StringBuilder str : strs){
+            sb.append(str);
+        }
+        return sb.toString();
     }
 }
