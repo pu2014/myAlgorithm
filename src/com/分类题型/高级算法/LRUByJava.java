@@ -1,6 +1,7 @@
 package com.分类题型.高级算法;
 
 import java.util.LinkedHashMap;
+import java.util.Map;
 
 /**
  * @DESC
@@ -18,5 +19,10 @@ public class LRUByJava extends LinkedHashMap<Integer, Integer> {
     }
     public void put(int key, int value){
         super.put(key, value);
+    }
+
+    @Override
+    protected boolean removeEldestEntry(Map.Entry<Integer, Integer> eldest) {
+        return size() > capacity;
     }
 }

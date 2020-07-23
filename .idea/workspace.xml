@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ba56835-eba4-4b51-9c86-c8547cb02300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/笔试/guanglianda/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/分类题型/数组/_42接雨水.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/数组/_42接雨水.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/分类题型/栈列/实现栈的逆序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/栈列/实现栈的逆序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/分类题型/高级算法/LRUByJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/高级算法/LRUByJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/分类题型/高级算法/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/分类题型/高级算法/LRUCache.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,41 +21,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_06旋转数组的最小数字.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_42孩子们的游戏.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/笔试/guanglianda/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_56数组中数字出现的次数2.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_30整数中1出现的次数.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -65,20 +29,64 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/分类题型/数组/_42接雨水.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            <state relative-caret-position="256">
+              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/分类题型/高级算法/LRUCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/分类题型/动态规划/双串动态规划/_72编辑距离.java">
+        <entry file="file://$PROJECT_DIR$/src/com/分类题型/高级算法/LRUByJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="528">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+              <folding>
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/Java/jdk1.8.0_121/src.zip!/java/util/LinkedHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="393" column="21" selection-start-line="393" selection-start-column="15" selection-end-line="393" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/分类题型/高级算法/ConsistencyHashCluster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/面试题/LinkedHashMapImplLRUCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -119,8 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/pu/优先级队列_堆实现/花费的最大钱数.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指Offer/_18顺时针打印矩阵.java" />
         <option value="$PROJECT_DIR$/src/com/剑指Offer/_19包含min函数的栈.java" />
         <option value="$PROJECT_DIR$/_02队列和栈的maxmin.md" />
         <option value="$PROJECT_DIR$/src/com/剑指Offer/_20栈的弹出序列.java" />
@@ -170,6 +176,8 @@
         <option value="$PROJECT_DIR$/src/com/分类题型/栈列/实现栈的逆序.java" />
         <option value="$PROJECT_DIR$/src/com/笔试/guanglianda/Main.java" />
         <option value="$PROJECT_DIR$/src/com/分类题型/数组/_42接雨水.java" />
+        <option value="$PROJECT_DIR$/src/com/分类题型/高级算法/LRUByJava.java" />
+        <option value="$PROJECT_DIR$/src/com/分类题型/高级算法/LRUCache.java" />
       </list>
     </option>
   </component>
@@ -180,10 +188,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="340" />
-    <option name="y" value="205" />
-    <option name="width" value="1030" />
-    <option name="height" value="875" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -266,6 +274,14 @@
               <item name="myAlgorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="分类题型" type="462c0819:PsiDirectoryNode" />
+              <item name="高级算法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="剑指Offer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -322,6 +338,43 @@
               <item name="笔试" type="462c0819:PsiDirectoryNode" />
               <item name="guanglianda" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="面试题" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="myAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="myAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -364,7 +417,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._42接雨水">
+  <component name="RunManager" selected="Application.LRUCache">
     <configuration name="实现栈的逆序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.分类题型.栈列.实现栈的逆序" />
       <module name="myAlgorithm" />
@@ -378,12 +431,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="字节提前批1面_找出数组中比他大的第一个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.分类题型.单调栈.字节提前批1面_找出数组中比他大的第一个数" />
+    <configuration name="DoubleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.分类题型.高级算法.DoubleList" />
       <module name="myAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.分类题型.单调栈.*" />
+          <option name="PATTERN" value="com.分类题型.高级算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.分类题型.高级算法.LRUCache" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.分类题型.高级算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -885,19 +951,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_337打家劫舍" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.分类题型.树._337打家劫舍" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.分类题型.树.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_42接雨水" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.分类题型.数组._42接雨水" />
       <module name="myAlgorithm" />
@@ -913,11 +966,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRUCache" />
+        <item itemvalue="Application.DoubleList" />
         <item itemvalue="Application._42接雨水" />
         <item itemvalue="Application.实现栈的逆序" />
         <item itemvalue="Application._236二叉树的最近公共祖先" />
-        <item itemvalue="Application.字节提前批1面_找出数组中比他大的第一个数" />
-        <item itemvalue="Application._337打家劫舍" />
       </list>
     </recent_temporary>
   </component>
@@ -1019,21 +1072,7 @@
       <workItem from="1595251458951" duration="1488000" />
       <workItem from="1595316303807" duration="624000" />
       <workItem from="1595381977495" duration="3955000" />
-      <workItem from="1595467492448" duration="816000" />
-    </task>
-    <task id="LOCAL-00044" summary="剑值offer _03从头到尾打印链表">
-      <created>1582388521201</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1582388521201</updated>
-    </task>
-    <task id="LOCAL-00045" summary="题目1：合并两个有序链表  //简单&#10; * 题目2：合并K个有序链表     //采用归并的手段简化&#10; * 合并 k 个排序链表，返回合并后的排序链表。请分析和描述算法的复杂度。">
-      <created>1582441692961</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1582441692961</updated>
+      <workItem from="1595467492448" duration="4692000" />
     </task>
     <task id="LOCAL-00046" summary="输入某二叉树的前序遍历和中序遍历的结果，&#10; * 请重建出该二叉树">
       <created>1582515249564</created>
@@ -1364,11 +1403,25 @@
       <option name="project" value="LOCAL" />
       <updated>1594649992558</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="1. 42接雨水增加单调栈方法">
+      <created>1595468446764</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1595468446764</updated>
+    </task>
+    <task id="LOCAL-00094" summary="1. LinkedHashMap设计LRU缓存，主要参数 访问参数设置为true，插入顺序是 false">
+      <created>1595479962102</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1595479962102</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="377713000" />
+    <option name="totallyTimeSpent" value="381589000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1380,10 +1433,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="1913" y="19" width="1038" height="834" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497006" visible="true" weight="0.2680965" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497006" weight="0.33265308" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1392,7 +1445,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32983795" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997987" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.20911528" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49597856" visible="true" weight="0.22222222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5227882" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1451,8 +1504,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="_23合并K个排序链表" />
-    <MESSAGE value="_24两两交换链表中的节点" />
     <MESSAGE value="_25K个一组翻转链表" />
     <MESSAGE value="_83删除排序链表中的重复元素" />
     <MESSAGE value="_641设计循环双端队列" />
@@ -1476,37 +1527,15 @@
     <MESSAGE value="_236二叉树的最近公共祖先" />
     <MESSAGE value="update" />
     <MESSAGE value="实现栈的逆序" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现栈的逆序" />
+    <MESSAGE value="1. 42接雨水增加单调栈方法" />
+    <MESSAGE value="1. LinkedHashMap设计LRU缓存，主要参数 访问参数设置为true，插入顺序是 false" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. LinkedHashMap设计LRU缓存，主要参数 访问参数设置为true，插入顺序是 false" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/面试题/ProductConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="9" selection-start-line="60" selection-start-column="40" selection-end-line="68" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/面试题/UseBigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/分类题型/单调栈/字节提前批1面_找出数组中比他大的第一个数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/剑指Offer/_19包含min函数的栈.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1552,13 +1581,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/分类题型/栈列/返回栈中最小元素.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/面试题/LinkedHashMapImplLRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
@@ -1629,13 +1651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="30" column="29" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/分类题型/高级算法/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1798,8 +1813,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/分类题型/数组/_42接雨水.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        <state relative-caret-position="256">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/面试题/LinkedHashMapImplLRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/分类题型/高级算法/ConsistencyHashCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/jdk1.8.0_121/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="393" column="21" selection-start-line="393" selection-start-column="15" selection-end-line="393" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/分类题型/高级算法/LRUByJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/分类题型/高级算法/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
         </state>
       </provider>
     </entry>

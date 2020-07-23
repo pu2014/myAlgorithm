@@ -40,6 +40,8 @@ public class LRUCache {
             Node last = map.get(key);
             cache.remove(last);
             cache.addFirst(newNode);
+            //如果值更新了
+            map.put(key, newNode);
         }else{
             if(capacity == cache.size()){
                 //这里不光要把队尾去掉，也要把map中的key和DoubleNode的映射去掉
@@ -51,6 +53,19 @@ public class LRUCache {
             map.put(key, newNode);
         }
 
+    }
+
+    /**
+     * 测试
+     * @param args
+     */
+    public static void main(String[] args) {
+        LRUCache lru = new LRUCache(2);
+        lru.put(1,1);
+        lru.put(2,2);
+        System.out.println(lru.get(1));
+        lru.put(3,3);
+        System.out.println(lru.get(2));
     }
 
 }
