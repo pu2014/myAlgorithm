@@ -1,5 +1,7 @@
 package com.分类题型.数组;
 
+import java.util.Stack;
+
 /**
  * @DESC 给定 n 个非负整数表示每个宽度为 1 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
  * 输入: [0,1,0,2,1,0,1,3,2,1,2,1]
@@ -11,6 +13,7 @@ public class _42接雨水 {
         int[] nums = {0,1,0,2,1,0,1,3,2,1,2,1};
         System.out.println(new Trap().method1(nums));
         System.out.println(new Trap().trap(nums));
+        System.out.println(new Trap().methodByStack(nums));
     }
 }
 class Trap {
@@ -55,5 +58,32 @@ class Trap {
             sum += Math.min(maxLeft, maxRight) - height[i];
         }
         return sum;
+    }
+
+    /**
+     * 单调栈方法  里面元素单调递减
+     * @param height
+     * @return
+     */
+    public int methodByStack(int[] height){
+        if(height.length < 3) return 0;
+        Stack<Integer> stack = new Stack<>();
+        int res = 0;
+        for(int i = 0; i < height.length; i++){
+            while(!stack.isEmpty() && height[stack.peek()] < height[i]){
+                //如果栈中元素小于当前高度，弹出
+                Integer pre = stack.pop();
+                //相同元素 pass
+                while(!stack.isEmpty() && height[stack.peek()] == height[pre]){
+                    stack.pop();
+                }
+                //找到形成凹槽的点  2 1 3  也就是peek() pre height[i] 形成凹槽
+                if(!stack.isEmpty()){
+                    res += (Math.min(height[i], height[stack.peek()]) - height[pre]) * (i - stack.peek() - 1);
+                }
+            }
+            stack.push(i);
+        }
+        return res;
     }
 }

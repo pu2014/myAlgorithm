@@ -18,7 +18,7 @@ public class 实现栈的逆序 {
             stack.push(sc.nextInt());
         }
         reverse(stack);
-        List<Integer> res = new ArrayList<>();
+        List<Integer> res = new ArrayList<>(stack);
         while(!stack.isEmpty()){
             res.add(stack.pop());
         }
