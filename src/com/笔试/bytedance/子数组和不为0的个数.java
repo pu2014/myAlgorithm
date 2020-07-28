@@ -7,10 +7,10 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 /**
- * @DESC 子数组和不为0
+ * @DESC 子数组和不为0的个数
  * @CREATE BY @Author pbj on @Date 2020/7/25 11:11
  */
-public class Main3 {
+public class 子数组和不为0的个数 {
     public static void main(String[] args) throws IOException {
         int[] nums = {-1,0,2};
         System.out.println(method(nums));
