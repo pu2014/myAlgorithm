@@ -25,11 +25,15 @@ public class 排序_堆排序 {
     public static void main(String[] args) {
         int[] arr = new int[10];
         int[] arr2 = new int[10];
+        int[] arr3 = new int[10];
         for(int i = 0;i < 10;i++){
             arr[i] = (int)(Math.random() * 100);  // 0.0-0.99 包括0
         }
         for(int i = 0;i < 10;i++){
             arr2[i] = (int)(Math.random() * 100);  // 0.0-0.99 包括0
+        }
+        for(int i = 0;i < 10;i++){
+            arr3[i] = (int)(Math.random() * 100);  // 0.0-0.99 包括0
         }
         System.out.println(Arrays.toString(arr));
         heapSort(arr);
@@ -37,6 +41,31 @@ public class 排序_堆排序 {
         System.out.println(Arrays.toString(arr2));
         heapSort2(arr2);
         System.out.println(Arrays.toString(arr2));
+        System.out.println(Arrays.toString(arr3));
+        heapSortSample(arr3);
+        System.out.println(Arrays.toString(arr3));
+    }
+
+    /**
+     * 简单实现
+     * @param arr
+     */
+    private static void heapSortSample(int[] arr) {
+        if(arr == null || arr.length < 2){
+            return;
+        }
+        //构建堆,调整为大根堆
+        int len = arr.length;
+        for(int i = (len - 1) / 2; i >= 0; i--){
+            heapify(arr, i, len);
+        }
+        //堆顶最大的放到最后，不参与排序，再调整堆
+        for(int i = len - 1; i >= 0; i--){
+            //交换堆顶
+            swap(arr, 0 , i);
+            //重新调整
+            heapify(arr, 0, i);
+        }
     }
 
     private static void heapSort2(int[] arr) {
