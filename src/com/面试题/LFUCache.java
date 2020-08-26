@@ -66,7 +66,7 @@ public class LFUCache<K, V> {
         @Override
         public int compareTo(HitRate o) {
             int compare = Integer.compare(this.hitCount, o.hitCount);
-            return compare == 0 ? Long.compare(this.lastTime, o.hitCount) : compare;
+            return compare == 0 ? Long.compare(this.lastTime, o.lastTime) : compare;
         }
     }
 
