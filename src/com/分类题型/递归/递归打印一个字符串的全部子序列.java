@@ -2,7 +2,7 @@ package com.分类题型.递归;
 
 public class 递归打印一个字符串的全部子序列 {
     public static void main(String[] args) {
-        String str = "abcdefgh";
+        String str = "aab";
         printAllSubsquence(str);
     }
 
