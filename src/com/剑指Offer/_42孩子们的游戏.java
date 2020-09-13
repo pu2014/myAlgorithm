@@ -23,6 +23,7 @@ public class _42孩子们的游戏 {
         int m = sc.nextInt();
         LastRemainingSolution proc = new LastRemainingSolution();
         System.out.println(proc.fun(n,m));
+        System.out.println(proc.fun2(n,m));
     }
 }
 class LastRemainingSolution {
@@ -48,6 +49,14 @@ class LastRemainingSolution {
             head= head.next;
         }
         return head.val;
+    }
 
+    public int fun2(int n, int m){
+        //反推
+        int res = 0;
+        for(int i = 2; i <= n; i++){
+            res = (res + m) % i;
+        }
+        return res;
     }
 }
