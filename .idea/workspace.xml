@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ba56835-eba4-4b51-9c86-c8547cb02300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ZuoShen/stack/CD_13双栈排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ZuoShen/stack/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/笔试/bytedance/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/笔试/bytedance/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/笔试/didi/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/笔试/jingdon/JDMain4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/笔试/jingdon/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/笔试/qunaer/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/笔试/shopee/Main3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ZuoShen/stack/CD_13双栈排序.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="594">
+              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -225,10 +216,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1909" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="1103" />
+    <option name="x" value="1908" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -318,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CD_13双栈排序">
+  <component name="RunManager" selected="Application.CD_36数组部分排序">
     <configuration name="双栈排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ZuoShen.stack.双栈排序" />
       <module name="myAlgorithm" />
@@ -345,12 +336,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.笔试.bytedance.Main2" />
+    <configuration name="CD_36数组部分排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ZuoShen.stack.CD_36数组部分排序" />
       <module name="myAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.笔试.bytedance.*" />
+          <option name="PATTERN" value="com.ZuoShen.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,110 +368,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ZuoShen.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="链表中环的入口结点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.链表.链表中环的入口结点" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.链表.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="二叉搜索树转换为双向链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.树.二叉搜索树转换为双向链表" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.树.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="消消乐" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.消消乐" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="消消乐" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.消消乐" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="找出二叉树子树中的最大搜索二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.树.找出二叉树子树中的最大搜索二叉树" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.树.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="判断是否是平衡树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.树.判断是否是平衡树" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.前缀树.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="数组最长前缀" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组最长前缀" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="数组中出现次数超过一半的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组中出现次数超过一半的数字" />
-      <module name="myAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pu.数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -618,6 +505,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="链表中环的入口结点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.链表.链表中环的入口结点" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.链表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="二叉树公司最大的活跃度" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pu.树.二叉树公司最大的活跃度" />
       <module name="myAlgorithm" />
@@ -696,13 +596,104 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="二叉搜索树转换为双向链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.树.二叉搜索树转换为双向链表" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.树.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="消消乐" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.消消乐" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="消消乐" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.消消乐" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="找出二叉树子树中的最大搜索二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.树.找出二叉树子树中的最大搜索二叉树" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.树.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="判断是否是平衡树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.树.判断是否是平衡树" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.前缀树.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数组最长前缀" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组最长前缀" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数组中出现次数超过一半的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pu.数组.数组中出现次数超过一半的数字" />
+      <module name="myAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pu.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CD_36数组部分排序" />
         <item itemvalue="Application.CD_13双栈排序" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.双栈排序" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -841,14 +832,7 @@
       <workItem from="1600600674623" duration="4190000" />
       <workItem from="1600861656229" duration="1587000" />
       <workItem from="1604925285693" duration="1444000" />
-      <workItem from="1607411390625" duration="940000" />
-    </task>
-    <task id="LOCAL-00065" summary="_23合并K个排序链表">
-      <created>1592449133835</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1592449133835</updated>
+      <workItem from="1607411390625" duration="1169000" />
     </task>
     <task id="LOCAL-00066" summary="_24两两交换链表中的节点">
       <created>1592486853119</created>
@@ -1186,11 +1170,18 @@
       <option name="project" value="LOCAL" />
       <updated>1599997511690</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="打卡打卡">
+      <created>1607412526632</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1607412526633</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="517742000" />
+    <option name="totallyTimeSpent" value="517971000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1203,9 +1194,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1295" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497006" visible="true" weight="0.2586904" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497006" visible="true" weight="0.20291026" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1214,7 +1204,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32983795" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997987" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49597856" visible="true" weight="0.42174628" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.42174628" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38844085" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1275,7 +1265,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Ieee 比赛" />
     <MESSAGE value="_337打家劫舍" />
     <MESSAGE value="字节提前批1面_找出数组中比他大的第一个数" />
     <MESSAGE value="_42接雨水" />
@@ -1300,7 +1289,8 @@
     <MESSAGE value="笔试" />
     <MESSAGE value="LFU update" />
     <MESSAGE value="近期的笔试" />
-    <option name="LAST_COMMIT_MESSAGE" value="近期的笔试" />
+    <MESSAGE value="打卡打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1727,8 +1717,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ZuoShen/stack/CD_13双栈排序.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="594">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
