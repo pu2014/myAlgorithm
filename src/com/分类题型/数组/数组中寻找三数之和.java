@@ -17,8 +17,8 @@ import java.util.List;
  **/
 public class 数组中寻找三数之和 {
     public static void main(String[] args) {
-        int[] nums = {0, 0, 0, 0};
-        List<List<Integer>> list = threeSum(nums);
+        int[] nums = {0,0,0,0};
+        List<List<Integer>> list = threeSumON2(nums);
         for (List<Integer> in : list) {
             for (Integer i : in) {
                 System.out.print(i + " ");
@@ -48,4 +48,43 @@ public class 数组中寻找三数之和 {
         }
         return list;
     }
+    public static List<List<Integer>> threeSumON2(int[] nums) {
+        if(nums == null || nums.length < 3){
+            return new ArrayList<>();
+        }
+        int len = nums.length;
+        Arrays.sort(nums);
+        List<List<Integer>> res = new ArrayList<>();
+        for(int i = 0; i < len - 2; i++){
+            if(nums[i] > 0){
+                break;
+            }
+            if(i > 0 && nums[i] == nums[i - 1]){
+                continue;
+            }
+            int left = i + 1;
+            int right = len - 1;
+            while(left < right){
+                if(nums[left] + nums[right] + nums[i] == 0){
+                    res.add(new ArrayList<>(Arrays.asList(nums[i], nums[left], nums[right])));
+                    left++;
+                    right--;
+                    while(left < right && nums[left] == nums[left-1]){
+                        left++;
+                    }
+                    while(right > left && nums[right] == nums[right+1]){
+                        right--;
+                    }
+                }else if(nums[left] + nums[right] + nums[i] < 0){
+                    left++;
+                }else{
+                    right--;
+                }
+            }
+        }
+        return res;
+    }
+
+
+
 }
