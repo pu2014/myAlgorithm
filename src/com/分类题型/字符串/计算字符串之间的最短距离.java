@@ -11,8 +11,8 @@ package com.分类题型.字符串;
  */
 public class 计算字符串之间的最短距离 {
     public static void main(String[] args) {
-        String A = "a";
-        String B = "b";
+        String A = "fxpimu";
+        String B = "xwrs";
         System.out.println(minStrDis(A,B));
     }
 
