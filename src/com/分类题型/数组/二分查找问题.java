@@ -29,11 +29,13 @@ import static java.util.Arrays.binarySearch;
  */
 public class 二分查找问题 {
     public static void main(String[] args) {
-        int[] nums = {1,2,3,4,5,6,7,8,9};
+        int[] nums = {5,7,7,8,8,10};
 
-        System.out.println(binarySearch(nums, 7));
-        System.out.println(binarySearch1(nums, 7));
-        System.out.println(binarySearch2(nums, 7));
+        System.out.println(binarySearch(nums, 8));
+        System.out.println(binarySearch1(nums, 8));
+        System.out.println(binarySearch2(nums, 8));
+        System.out.println(binarySearch3(nums, 8, true));
+        System.out.println(binarySearch3(nums, 8, false));
     }
 
     private static int binarySearch2(int[] nums, int target) {
@@ -57,7 +59,7 @@ public class 二分查找问题 {
         //L <= R
         int L = 0;
         int R = nums.length - 1;
-        while(L < R){
+        while(L <= R){
             int mid = L + ((R - L) >>> 1);
             if(nums[mid] < target){
                 L = mid + 1;
@@ -65,6 +67,21 @@ public class 二分查找问题 {
                 R = mid;
             }else{
                 return mid;
+            }
+        }
+        return L;
+    }
+
+    private static int binarySearch3(int[] nums, int target, boolean lower) {
+        //L <= R
+        int L = 0;
+        int R = nums.length;
+        while(L < R){
+            int mid = L + ((R - L) >>> 1);
+            if(nums[mid] > target || ((lower) && nums[mid] >= target)){
+                R = mid;
+            }else{
+                L = mid + 1;
             }
         }
         return L;

@@ -1,6 +1,5 @@
 package com.笔试.shunfeng;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**

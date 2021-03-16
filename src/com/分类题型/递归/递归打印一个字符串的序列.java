@@ -2,7 +2,7 @@ package com.分类题型.递归;
 
 public class 递归打印一个字符串的序列 {
     public static void main(String[] args) {
-        String test = "ab";
+        String test = "aab";
         printAllSub(test,0,"");
     }
 
